@@ -1,11 +1,11 @@
 
 ## Do OpenAI Five Dota 2 bots communicate?
 
-**Update on September 12:**
+**Update on September 12, 2018:**
 
 I’m sorry, I was wrong. One data point supporting [Cunningham’s Law](https://meta.wikimedia.org/wiki/Cunningham%27s_Law). [Ajedi32](https://news.ycombinator.com/item?id=17968829)’s and [gdb](https://twitter.com/gdb/status/1039912132622442496)’s comments changed my mind. I didn’t know that in Dota a player has perfect information of the state of all allied units. So the blocks above LSTM are combined allies’ observations, not observations from one hero as I thought. This changes mine interpretation of “max-pool across Players”. Now I just see it as an observation processing. No communication (excluding something like [bee dance](https://en.wikipedia.org/wiki/Waggle_dance), I don’t know if it occurs).
 
-Original post from August 23:
+Original post from August 23, 2018:
 
 ***
 
@@ -35,4 +35,4 @@ Also note that bots’ “brains” are the same. These two (broadcasts and the 
 
 [On June 6](https://d4mucfpksywv.cloudfront.net/research-covers/openai-five/network-architecture.pdf) the model didn’t have anything working across players.
 
-I’m not saying anything is bad or good — it just worked like that on August 6 (so likely on The International, August 22–23, too). I enjoy what OpenAI is doing, very exciting. It’s just an interpretation of how bots communication work, I hope it was helpful.
+I’m not saying anything is bad or good — it just worked like that on August 6, 2018 (so likely on The International, August 22–23, too). I enjoy what OpenAI is doing, very exciting. It’s just an interpretation of how bots communication work, I hope it was helpful.
