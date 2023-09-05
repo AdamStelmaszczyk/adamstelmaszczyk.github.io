@@ -22,7 +22,7 @@ A typical program would read the initial observation and output an action, activ
 
 Round 1 finished on 4 November, our place on [the leaderboard](https://www.crowdai.org/challenges/nips-2017-learning-to-run/leaderboards) was 63rd with 17.51 metres, it looked like this:
 
-https://www.youtube.com/watch?v=Jy59uAnyI1so
+<iframe width="680" height="510" src="https://www.youtube.com/embed/y59uAnyI1so" title="NIPS 2017: Learning to Run, 17.51 meters" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 We had a model which scored 22.71 (which would be 42nd place), but due to some server-side bug it didn’t register on the leaderboard. It didn’t matter that much at that point, because the rules changed and not top 10 was advancing to the final Round 2 but competitors with score 15 or higher. Since we already had 17.51, we solely focused on training for Round 2, which was harder, since the number of obstacles (these spheres on the ground) was increased from 3 to 10. In the Round 2 we placed 22nd with 18.62 meters (GIF at the top of this post).
 
@@ -84,7 +84,7 @@ The second one was a penalty for straight legs. Our models all the time had two 
 
 We tried many other things, for example reducing action to only 9 values for the right leg and copying them over to the left leg. We hoped to produce a fast hopper, kangaroo-like (with a simpler network). Our PPO however couldn’t train it well, skeleton was poor on obstacles. Here is how a good hopper looks like (this one is Henryk Michalewski’s result, it uses full 18 action values though, it just converged to this quite good local maximum):
 
-https://www.youtube.com/watch?v=ttPpvFM5eiA&list=PL-cyZJRNghHthxzswuKYpkzfO-AG26p_k
+<iframe width="680" height="510" src="https://www.youtube.com/embed/ttPpvFM5eiA?list=PL-cyZJRNghHthxzswuKYpkzfO-AG26p_k" title="Advanced - cangaroo style" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Summary
 
@@ -108,7 +108,7 @@ In the beginning I think nobody was sure if it would be possible to run fast, bu
 
 To see what’s possible, USTC-IMCL’s solution winning Round 1 with 44.61m:
 
-https://www.youtube.com/watch?v=1-aH5b_PKPs
+<iframe width="680" height="510" src="https://www.youtube.com/embed/1-aH5b_PKPs" title="NIPS 2017: Learning to Run, USTC-IMCL solution, 44.6 meters" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 NNAISENSE (Wojciech Jaśkowski et al.) won the final Round 2 with a very impressive result of 45.96m, congratulations! State of the art running… In Round 1 they were 5th with 42.71m. All the videos from Round 1 and 2 are available [on the leaderboard](https://www.crowdai.org/challenges/nips-2017-learning-to-run/leaderboards?challenge_round_id=1).
 
