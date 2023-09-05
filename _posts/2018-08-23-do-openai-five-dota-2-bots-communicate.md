@@ -7,6 +7,8 @@ I’m sorry, I was wrong. One data point supporting [Cunningham’s Law](https:/
 
 Original post from August 23:
 
+***
+
 **tl;dr** Yes, in one direction, in broadcast-like fashion with superhuman bandwidth.
 
 [This](https://s3-us-west-2.amazonaws.com/openai-assets/dota_benchmark_results/network_diagram_08_06_2018.pdf) is the model from August 6. Version annotated by me:
