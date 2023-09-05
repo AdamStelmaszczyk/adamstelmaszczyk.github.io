@@ -60,4 +60,6 @@ Different things I tried, but didn’t bring improvement:
 
 Overall the challenge was light on time and the format was quite original. Thanks to the organizers and congrats to all the participants, it was fun.
 
-If you like such competition summaries, I wrote another one some time ago: [Our NIPS 2017: Learning to Run approach](https://medium.com/mlreview/our-nips-2017-learning-to-run-approach-b80a295d3bb5).
+If you like such competition summaries, I wrote another one some time ago: [Our NIPS 2017: Learning to Run approach](https://adamstelmaszczyk.github.io/2017/11/19/our-nips-2017-learning-to-run-approach.html).
+
+
