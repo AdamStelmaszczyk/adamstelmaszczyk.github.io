@@ -8,12 +8,8 @@ description: "Blog about AI, computer science etc." # This will show up in place
 twitter_username: "astelma1"
 github_username: "AdamStelmaszczyk"
 linkedin_username: "adamstelmaszczyk"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+
+google_analytics: G-DFDJBEBZMF
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
