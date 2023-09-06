@@ -26,10 +26,10 @@ SA = Simulated Annealing
 5. HC vs BC, which ones are better? Other than different set of standard techniques, the main difference is that HC give you fast & precise feedback, while BC are generally more fun. You'll learn at much faster pace in HC.
 6. The best sites for contests:
 
-HC: Topcoder (MM, Marathon Match), AtCoder (AHC, AtCoder Heuristic Contest)  
-BC: CodinGame
+    HC: Topcoder (MM, Marathon Match), AtCoder (AHC, AtCoder Heuristic Contest)  
+    BC: CodinGame
 
-All sites feature good problems, fair evaluation system & community that talks about solutions post-contest. Some sites might be rough on the UI side ;)
+    All sites feature good problems, fair evaluation system & community that talks about solutions post-contest. Some sites might be rough on the UI side ;)
 
 7. [HC] Googling about the problem is generally a waste of time. Good problem design (above sites) means that problem writers made sure that the problems are unique. There are rare exceptions; it might be useful to research a particular subproblem that exist.
 
@@ -40,14 +40,14 @@ All sites feature good problems, fair evaluation system & community that talks a
 10. All local-search alternatives to SA are (almost always) bad. Genetic Algorithms, Tabu Search, Ant Colony, etc. Just forgot them. They are not only less effective, but slower to implement.
 
 11. Why SA?
-- You can start with Hill Climbing and convert to SA with 2 additional lines.
-- Gives you ability of fast dynamic evals.
-- When tweaked properly has higher potential (due to fast evels) than other methods.
-- Allows for very fast iterations.
+    - You can start with Hill Climbing and convert to SA with 2 additional lines.
+    - Gives you ability of fast dynamic evals.
+    - When tweaked properly has higher potential (due to fast evels) than other methods.
+    - Allows for very fast iterations.
 
 12. Standard SA:
     
-temp schedule: `t = t_start * (t_final / t_start) ^ time_passed`, where `time_passed` is in `0..1`  
-acceptance (when min is better): `RNG() < exp((cur_result - new_result) / t)`, where `RNG()` returns `0..1` uniformly
-
-It's the best starting point in almost all cases.
+    temp schedule: `t = t_start * (t_final / t_start) ^ time_passed`, where `time_passed` is in `0..1`.  
+    acceptance (when min is better): `RNG() < exp((cur_result - new_result) / t)`, where `RNG()` returns `0..1` uniformly.
+    
+    It's the best starting point in almost all cases.
