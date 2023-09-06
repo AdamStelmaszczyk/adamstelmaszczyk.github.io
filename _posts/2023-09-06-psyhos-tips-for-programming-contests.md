@@ -7,7 +7,7 @@ Translating the Polish [wiki](https://pl.wikipedia.org/wiki/Przemys%C5%82aw_D%C4
 
 I've recently stumbled across his Twitter [mega thread](https://twitter.com/FakePsyho/status/1605570944537280512), in which he posted many programming tips. Goldmine.
 
-I wished I had all of them consolidated into one page, for easier reading and further reference. Perhaps also many others would prefer a single article instead of a Twitter thread. Also creating such a page will help me in understanding those tips. So here we go.
+I wished I had all of them a bit cleaned up and consolidated into one page, for easier reading and further reference. Perhaps also many others would prefer a single article instead of a Twitter thread. Also creating such a page will help me in absorbing those tips. So here we go.
 
 ## Abbreviations
 
@@ -55,6 +55,6 @@ SA = Simulated Annealing
 12. Standard SA:
     
     Temperature schedule: `t = t_start * (t_final / t_start) ^ time_passed`, where `time_passed` is in `0..1`.  
-    Acceptance (when min is better): `RNG() < exp((cur_result - new_result) / t)`, where `RNG()` returns `0..1` uniformly.
+    Acceptance (when lower result is better): `RNG() < exp((cur_result - new_result) / t)`, where `RNG()` returns `0..1` uniformly.
     
     It's the best starting point in almost all cases.
