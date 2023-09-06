@@ -14,6 +14,7 @@ I wished I had all of them consolidated into one page, for easier reading and fu
 BC = Bot Contests  
 CP = Competetive Programming  
 HC = Heuristic Contests  
+SA = Simulated Annealing
 
 ## Psyho's tips
 
@@ -33,3 +34,20 @@ All sites feature good problems, fair evaluation system & community that talks a
 7. [HC] Googling about the problem is generally a waste of time. Good problem design (above sites) means that problem writers made sure that the problems are unique. There are rare exceptions; it might be useful to research a particular subproblem that exist.
 
 8. For most people, the most limiting skill is prototyping speed. With some experience, you'll always have dozens of ideas that you want to implement. The limiting factor is how quickly can you iterate through them. The faster you go, the quicker you learn about the problem.
+
+9. Best way to get good quickly is to focus on a single contest instead of half-assing many. You won't learn much by only doing basic solutions. The proper learning period starts when you hit a wall and don't know how to proceed. You have to push yourself to get results.
+
+10. All local-search alternatives to SA are (almost always) bad. Genetic Algorithms, Tabu Search, Ant Colony, etc. Just forgot them. They are not only less effective, but slower to implement.
+
+11. Why SA?
+- You can start with Hill Climbing and convert to SA with 2 additional lines.
+- Gives you ability of fast dynamic evals.
+- When tweaked properly has higher potential (due to fast evels) than other methods.
+- Allows for very fast iterations.
+
+12. Standard SA:
+    
+temp schedule: `t = t_start * (t_final / t_start) ^ time_passed`, where `time_passed` is in `0..1`  
+acceptance (when min is better): `RNG() < exp((cur_result - new_result) / t)`, where `RNG()` returns `0..1` uniformly
+
+It's the best starting point in almost all cases.
