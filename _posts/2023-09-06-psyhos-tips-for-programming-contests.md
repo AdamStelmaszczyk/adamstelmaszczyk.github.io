@@ -43,7 +43,7 @@ SA = Simulated Annealing
     - You can start with Hill Climbing and convert to SA with 2 additional lines.
     - Gives you ability of fast dynamic evals.
     - When tweaked properly has higher potential (due to fast evels) than other methods.
-    - Allows for very fast iterations.
+    - Allows for very fast iterations.  
 
 12. Standard SA:
     
