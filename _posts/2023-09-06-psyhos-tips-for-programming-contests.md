@@ -209,22 +209,21 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
     Integer division has roughly ~100x longer latency than add/sub for Intel Skylake, [http://gmplib.org/~tege/x86-timing.pdf](http://gmplib.org/~tege/x86-timing.pdf).
 
-61. Pre-compute everything you can and store those values in arrays. It's not always better, but some operations might be slower than you think. For example, precalculating "pow(x, y)" is quite often faster than calculating it on the fly.
+61. Pre-compute everything you can and store those values in arrays. It's not always better, but some operations might be slower than you think. For example, precalculating `pow(x, y)` is quite often faster than calculating it on the fly.
 
-62.  For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
+62. For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
 
-63.  Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
-
+63. Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
     ```
-    set(pos, value)
-    check(pos)
+    set(i, value)
+    get(i)
     clear() # clears full array
     ```
-    Naive implementation is O(1)+O(1)+O(N), but you can use int array with a counter (clear -> counter++) to make it O(1)+O(1)+O(1).
+    Naive implementation is O(1) + O(1) + O(N), but you can use int array with a counter (`clear` will be `counter++`) to make it O(1) + O(1) + O(1).
 
-65. Extend "Fast-Clearing Array".
+64. Extend "Fast-Clearing Array".
 
-    - If each clear increases your counter by x -> you can store values in 0..x-1.
+    - If each clear increases your counter by `RANGE` -> you can store values in `0..RANGE-1`.
     - If collisions are acceptable, in many cases this can replace your sets/maps.
 
     ```
@@ -250,3 +249,19 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
         threshold += RANGE;
     }
     ```
+
+65. Adding special guardians/boundaries in your graphs can reduce the number of operations during pathfinding. For example, when you run BFS on 2D grid, you can extend the grid by 1 in all directions to avoid checking for boundary condition (stepping outside of grid).
+
+66. The most important speedup you'll commonly perform is to make your algorithm dynamic. For example if you apply SA to Traveling Salesman Problem and your transition is move a city to another point in path, your evaluation should be O(1), because you only care about delta.
+
+67. Measuring time is (often) costly. The fastest way is to call `rdtsc`, but some sites use different way of measuring time. Commonly used `gettimeofday()` in C++ is a system call and on some platforms those are very expensive. There was one time when 1K calls took over 1s.
+
+68. Use pruning / early exits / simplified calculations. This doesn't happen very often, but there are cases where you simply skip some calculations. This mostly happens with your evaluation function where some transitions completely ruin your score and you can quickly tell that.
+
+69. If you're doing very heavy code optimization mirror the "judge" machine. Having the exact version of gcc is way more important than anything else. That being said, I generally don't advise fighting for <5% speed ups. Parameter optimization is way easier.
+
+70. SIMD/auto-vectorization is very powerful. I never really use this nowadays, but it's still a powerful tool. Using SSE/AVX instruction set feels like solving mini puzzles. It's easy to outperform the best compilers, and you can get 2-20x speed up in critical places.
+
+71. You can (mostly) override compiler flags via `#pragma GCC optimize (...)`. I have `Ofast,omit-frame-pointer,inline,unroll-all-loops`. In theory, `omit-frame-pointer` is included in -O1, but it was faster 🤷. You can do HC on compiler flags 😅
+
+
