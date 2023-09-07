@@ -54,7 +54,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 12. Standard SA:
     
-    Temperature schedule: `t = t_start * (t_final / t_start) ^ time_passed`, where `time_passed` is in `0..1`.  
+    Temperature schedule: `t = t_start * pow((t_final / t_start), time_passed)`, where `time_passed` is in `0..1`.  
     Acceptance (when lower result is better): `RNG() < exp((cur_result - new_result) / t)`, where `RNG()` returns `0..1` uniformly.
     
     It's the best starting point in almost all cases.
@@ -207,4 +207,46 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
    
     > Because addition/subtraction is in AC0, and modulo is not. To say it in a less sophisticated way, the circuit for addition is constant-depth and also much simpler. Which is important given that your processor literally does math via in-built circuits. 
 
-    Integer division has roughly ~100x longer latency than add/sub for Intel Skylake, [http://gmplib.org/~tege/x86-timing.pdf](http://gmplib.org/~tege/x86-timing.pdf). 
+    Integer division has roughly ~100x longer latency than add/sub for Intel Skylake, [http://gmplib.org/~tege/x86-timing.pdf](http://gmplib.org/~tege/x86-timing.pdf).
+
+61. Pre-compute everything you can and store those values in arrays. It's not always better, but some operations might be slower than you think. For example, precalculating "pow(x, y)" is quite often faster than calculating it on the fly.
+
+62.  For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
+
+63.  Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
+
+    ```
+    set(pos, value)
+    check(pos)
+    clear() # clears full array
+    ```
+    Naive implementation is O(1)+O(1)+O(N), but you can use int array with a counter (clear -> counter++) to make it O(1)+O(1)+O(1).
+
+65. Extend "Fast-Clearing Array".
+
+    - If each clear increases your counter by x -> you can store values in 0..x-1.
+    - If collisions are acceptable, in many cases this can replace your sets/maps.
+
+    ```
+    int RANGE = 1000;
+    int threshold = 0;
+    int a[N] = {0,};
+   
+    int get(int i) {
+        return a[i] >= threshold ? a[i] - threshold : 0;
+    }
+   
+    void set(int i, int value) {
+        if (value > RANGE) {
+            throw std::invalid_argument("Value greater than RANGE")
+        }
+        a[i] = value + threshold;
+    }
+   
+    void clear() {
+        if (threshold >= INT_MAX - RANGE) {
+            throw std::runtime_error("Threshold overflow")
+        }
+        threshold += RANGE;
+    }
+    ```
