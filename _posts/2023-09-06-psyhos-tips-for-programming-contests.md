@@ -63,52 +63,40 @@ SA = Simulated Annealing
 
 14. Things to do when it's easy to stuck in a local optimum:
     
-   - very high temperatures / acceptace rate
-   - complex transition states
-   - (rarely) kicks
-   - (rarely) soft restarts (restarting temperature schedule without solution)
-   - (rarely) multiple runs
+    - very high temperatures / acceptace rate
+    - complex transition states
+    - (rarely) kicks
+    - (rarely) soft restarts (restarting temperature schedule without solution)
+    - (rarely) multiple runs  
 
 15. Things to do when a lot of states are invalid (due to restrictions):
-    
-   - add an additional scoring component based on number of collisions that has initial weight 0 and a final weight of infinity
-   - (if possible) do many short SA runs with high temperature on a partial subsolution.
+
+    - add an additional scoring component based on number of collisions that has initial weight 0 and a final weight of infinity
+    - (if possible) do many short SA runs with high temperature on a partial subsolution.
 
 16. Things to do when your eval is very fast:
     
-   - make sure your RNG is not a bottleneck
-   - make sure your exp function is not a bottleneck
-   - make sure your function that gets current time is not a bottleneck
+    - make sure your RNG is not a bottleneck
+    - make sure your exp function is not a bottleneck
+    - make sure your function that gets current time is not a bottleneck
 
-   That happens way more often than you may think.
+    That happens way more often than you may think.
 
 17. Overall priorities for SA:
     
-   - prototype different transition functions
-   - make evaluation function very fast (= make it dynamic)
-   - find proper temperatue schedule (usually 3-4 runs are enough)
-   - test a lot
-   - only when you're done with the above move to other things
+    - prototype different transition functions
+    - make evaluation function very fast (= make it dynamic)
+    - find proper temperatue schedule (usually 3-4 runs are enough)
+    - test a lot
+    - only when you're done with the above move to other things
 
 18. Make sure that you constantly update your best result and return your best instead of the final one. I can't tell how many times I saw this mistake. Constantly updating your best results allows you to have a much higher final temperature.
 
 19. When SA is not great:
     
-   - it's very easy to get stuck in local optima: check #14 for hints
-   - you mix simple transitions with complex ones: have a separate acceptance function for each transition
-   - your evaluation is very erratic during transitions: you're out of luck
-
-   Ok, enough about SA.
-   
-   Contests are essentially simple feedback loops:
-   
-   a) do stuff  
-   b) get results  
-   c) extract information  
-   
-   You can get better by improving any of those areas. The most neglected area by everyone is b).
-   
-   Let's focus on testing now.
+    - it's very easy to get stuck in local optima: check #14 for hints
+    - you mix simple transitions with complex ones: have a separate acceptance function for each transition
+    - your evaluation is very erratic during transitions: you're out of luck
 
 20. Testing is the most neglected aspect of contests by almost everyone. Testing is your way of getting feedback. If your testing is slow you're going to progress very slowly. If your testing is inaccurate, it's going to be very hard to figure out correct next steps. This will mostly focus on HC, as testing in BC is very hard and quite often nearly unfeasible.
 
@@ -116,10 +104,10 @@ SA = Simulated Annealing
 
 22. Use a good local tester. The absolute minimum are two functionalities:
     
-   - multithreading (ability to run multiple tests on separate threads)
-   - relative scoring (which is a standard on topcoder)
+    - multithreading (ability to run multiple tests on separate threads)
+    - relative scoring (which is a standard on topcoder)
      
-   If you don't have your own, use mine: https://github.com/FakePsyho/psytester
+    If you don't have your own, use [mine](https://github.com/FakePsyho/psytester).
 
 23.  Testing speed is often a limiting factor. When your solution is compact and easy to extend, you can add/remove features in matter of seconds. That means at some point in the contest, testing different versions of your solutions is going to be main bottleneck.
 
@@ -140,10 +128,11 @@ SA = Simulated Annealing
 31. Every time you suddenly get results that do not align with your intuition you should investigate. Either you have a bug (see above) or your intuition is off. For latter, you should treat this as a learning experience and figure out why you were wrong.
 
 32. Try to keep your solution small. More code means:
-   - more bugs
-   - remembering full solution is much more mentally demanding
-   - (usually) more dependencies -> costly refactoring
-   Most of the winning solutions are around 400-1000 lines of code.
+    
+    - more bugs
+    - remembering full solution is much more mentally demanding
+    - (usually) more dependencies -> costly refactoring
+    Most of the winning solutions are around 400-1000 lines of code.
 
 33. Read editorials after every contest you participate in. In all of the platforms I have mentioned, (nearly) all of the top competitors describe their solution after the contest is finished. It's an incredible waste of opportunity to compete and then not read what others did.
 
@@ -157,23 +146,19 @@ SA = Simulated Annealing
 
 38. Don't waste your time on solutions that can't get you far. If you know that the current solution is not able to achieve good results, there's no point in squeezing maximum value out of it. The easiest way to end up at the top of the leaderboard is to aim high and fail.
 
-39. Tools increase your productivity. By a lot. For HC it's mainly a local tester. For BC it's a local league system (although it's less reliable). My estimate is that after polishing my local tester (https://github.com/FakePsyho/psytester) I'm spending around 30-40% less time on contests.
+39. Tools increase your productivity. By a lot. For HC it's mainly a local tester. For BC it's a local league system (although it's less reliable). My estimate is that after polishing my local [tester](https://github.com/FakePsyho/psytester). I'm spending around 30-40% less time on contests.
 
 40. Good competitors never run out of ideas. You can get more inspiration by running tests, looking at the visualizer / games. You get ideas by working on your solution. At the start, even the best people have no clue what's the best solution is going to be.
 
-41. CP and HC/HB require completely different skills.
-
-   CP is a sprint, requires insane concentration and a large knowledge base.
-   HC/BC are marathons, it's mostly long-term planning and creative thinking/problem solving.
+41. CP and HC/HB require completely different skills. CP is a sprint, requires insane concentration and a large knowledge base. HC/BC are marathons, it's mostly long-term planning and creative thinking/problem solving.
 
 42. In CP, your "opponent" is the problem setter. In HC/BC (but mostly HC) your opponent is the past you. In HC/BC you're never done with the problem and solving is an ongoing process. You have to fit your life between the coding sessions. It's very hard to switch between problems.
 
-43. In CP you care about the worse case. In HC/BC you care about the average case.
-
-   This opens a complete new class of techniques:
-   - randomized algorithms
-   - different versions for quickly handling special cases
-   - pruning (early exits)
+43. In CP you care about the worse case. In HC/BC you care about the average case. This opens a complete new class of techniques:
+    
+    - randomized algorithms
+    - different versions for quickly handling special cases
+    - pruning (early exits)
 
 44. Being experienced in CP gives you a solid foundation for HC/BC. While algorithmic knowledge from CP is only somewhat useful, CP is wonderful for practicing your programming language & writing bug-free code as it provides very quick iteration cycles.
 
@@ -208,19 +193,18 @@ SA = Simulated Annealing
 59. The only data structure that you really need is an array. It's very rare that you can't replace all your data with simple arrays. That being said, data structure optimization can be considered pre-mature optimization, since it can increase complexity.
 
 60. Modulo is surprisingly slow. Switching:
-   ```
-   x = (x + y) % m
-   ```
-   to
-   ```
-   x += y
-   x -= x >= m ? m : 0
-   ```
-   is quite often faster. Assuming `y < m, y > 0, m > 0`.
-
-   Citing https://twitter.com/cdkrot: 
+    ```
+    x = (x + y) % m
+    ```
+    to
+    ```
+    x += y
+    x -= x >= m ? m : 0
+    ```
+    is quite often faster. Assuming `y < m, y > 0, m > 0`.
    
-   > Because addition/subtraction is in AC0, and modulo is not. To say it in a less sophisticated way, the circuit for addition is constant-depth and also much simpler. Which is important given that your processor literally does math via in-built circuits. 
-
-   Integer division has roughly ~100x longer latency than add/sub for Intel Skylake, http://gmplib.org/~tege/x86-timing.pdf. 
+    Citing https://twitter.com/cdkrot: 
    
+    > Because addition/subtraction is in AC0, and modulo is not. To say it in a less sophisticated way, the circuit for addition is constant-depth and also much simpler. Which is important given that your processor literally does math via in-built circuits. 
+
+    Integer division has roughly ~100x longer latency than add/sub for Intel Skylake, [http://gmplib.org/~tege/x86-timing.pdf](http://gmplib.org/~tege/x86-timing.pdf). 
