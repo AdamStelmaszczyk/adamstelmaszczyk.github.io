@@ -203,7 +203,7 @@ SA = Simulated Annealing
     ```
     is quite often faster. Assuming `y < m, y > 0, m > 0`.
    
-    Citing https://twitter.com/cdkrot: 
+    Citing [https://twitter.com/cdkrot](https://twitter.com/cdkrot): 
    
     > Because addition/subtraction is in AC0, and modulo is not. To say it in a less sophisticated way, the circuit for addition is constant-depth and also much simpler. Which is important given that your processor literally does math via in-built circuits. 
 
