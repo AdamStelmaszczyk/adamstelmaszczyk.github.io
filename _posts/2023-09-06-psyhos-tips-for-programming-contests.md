@@ -219,13 +219,12 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     get(i)
     clear() # clears full array
     ```
-    Naive implementation is O(1) + O(1) + O(N), but you can use int array with a counter (`clear` will be `counter++`) to make it O(1) + O(1) + O(1).
+    Naive implementation is O(1) + O(1) + O(N), but you can use int array with a threshold (`clear` will be `threshold++`) to make it O(1) + O(1) + O(1).
 
 64. Extend "Fast-Clearing Array".
 
-    - If each clear increases your counter by `RANGE` -> you can store values in `0..RANGE-1`.
+    - If each clear increases your counter by `RANGE`, you can store values in `0..RANGE-1`.
     - If collisions are acceptable, in many cases this can replace your sets/maps.
-
     ```
     int RANGE = 1000;
     int threshold = 0;
