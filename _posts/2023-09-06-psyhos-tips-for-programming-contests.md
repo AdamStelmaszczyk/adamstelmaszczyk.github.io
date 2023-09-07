@@ -1,6 +1,6 @@
 ## Psyho's tips for programming contests
 
-Translating the Polish [wiki](https://pl.wikipedia.org/wiki/Przemys%C5%82aw_D%C4%99biak) page to English, Psyho is:
+Translating the Polish wiki [page](https://pl.wikipedia.org/wiki/Przemys%C5%82aw_D%C4%99biak) to English, Psyho is:
 
 > Polish computer scientist, multiple winner of international programming competitions, expert in algorithmics, artificial intelligence and data mining, member of Mensa.  
 > He is also a multiple Polish puzzle solving champion and a Polish representative at the World Puzzle Championship and World Sudoku Championship.
