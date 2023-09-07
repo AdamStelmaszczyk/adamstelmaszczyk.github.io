@@ -97,8 +97,14 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     - it's very easy to get stuck in local optima: check #14 for hints
     - you mix simple transitions with complex ones: have a separate acceptance function for each transition
     - your evaluation is very erratic during transitions: you're out of luck
+   
+20. Contests are essentially simple feedback loops:
+    
+    a) do stuff  
+    b) get results  
+    c) extract information  
 
-20. Testing is the most neglected aspect of contests by almost everyone. Testing is your way of getting feedback. If your testing is slow you're going to progress very slowly. If your testing is inaccurate, it's going to be very hard to figure out correct next steps. This will mostly focus on HC, as testing in BC is very hard and quite often nearly unfeasible.
+    You can get better by improving any of those areas. Testing is the most neglected aspect of contests by almost everyone. It is your way of getting feedback. If your testing is slow you're going to progress very slowly. If your testing is inaccurate, it's going to be very hard to figure out correct next steps. This will mostly focus on HC, as testing in BC is very hard and quite often nearly unfeasible.
 
 21. Use a local tester. If you're only using provisional testing for evaluation, you're making everything extremely hard for yourself. You're not saving time, you're wasting it.
 
@@ -263,4 +269,25 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 71. You can (mostly) override compiler flags via `#pragma GCC optimize (...)`. I have `Ofast,omit-frame-pointer,inline,unroll-all-loops`. In theory, `omit-frame-pointer` is included in -O1, but it was faster 🤷. You can do HC on compiler flags 😅
 
+72. There's a new concept in BC: metagame. What is the best strategy often depends on the dominating strategies of other players. This is especially problematic in games with imperfect information. Forget about decent evaluation of your solution.
 
+73. Each "test" is essentially a single 2-player game with binary outcome. Either you win or lose, no matter how big your advantage/disadvantage was. Forget about decent evaluation of your solution.
+
+74. In order to be able to perform viable local tests, you need a wide spectrum of different approaches that's representative of bots on the leaderboard. Forget about decent evaluation of your solution.
+
+75. Remember tip 20? Contests are feedback loops. When you can't effectively evaluate your solution, it's hard to quickly develop your intuition. In BC you get a lot of noisy feedback and you have to make very wild guesses about the next steps.
+
+76.  BC require much bigger time investment than heuristic contests.
+
+    - very weak feedback mechanism
+    - constantly evolving metagame
+    - access to all replays means that everyone has access to how your bot plays (and they can counter it)
+    - (often) more complex rules
+
+77. Due to interactivity they tend to be way more fun than HC. Despite that, I generally don't recommend BC as a good learning platform for newcomers. Feedback loop is ineffective so it's harder to associate your actions with the outcome.
+
+78.  ost of the skills & wisdom gained from H Care applicable to BC contests. Prototyping. Good workflow. Code optimization. Many of the algorithms & techniques are still applicable (beam search is still useful).
+
+79.  Most of the techniques fall into two types: complex state evaluation functions (aka heuristics) and search (beam search, rollouts, MCTS). It highly depends on the problem which one is more viable, but you have to master both to succeed. Extreme form of state evaluations are neural networks.
+
+80. Because the evaluation is very noisy it's often a good idea to ignore it altogether and focus on a solution that you believe will work. Search-based solutions tend to be more metagame agnostic. You can also develop a local league system for automatic state evaluation adjustments. I've been working on a simple local league [system](https://github.com/FakePsyho/psyleague) that would do automatic matchmaking. Somewhat similar tool to [psytester](https://github.com/FakePsyho/psytester) but for bot contests.
