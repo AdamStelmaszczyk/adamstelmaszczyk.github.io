@@ -11,7 +11,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 ## Abbreviations
 
-- CP = [Classic] Competetive Programming
+- CP = (Classic) Competetive Programming
 - BC = Bot Contests
 - HC = Heuristic Contests
 - SA = Simulated Annealing
@@ -37,7 +37,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
     All sites feature good problems, fair evaluation system & community that talks about solutions post-contest. Some sites might be rough on the UI side ;)
 
-7. [HC] Googling about the problem is generally a waste of time. Good problem design (above sites) means that problem writers made sure that the problems are unique. There are rare exceptions; it might be useful to research a particular subproblem that exist.
+7. In HC, Googling about the problem is generally a waste of time. Good problem design (above sites) means that problem writers made sure that the problems are unique. There are rare exceptions; it might be useful to research a particular subproblem that exist.
 
 8. For most people, the most limiting skill is prototyping speed. With some experience, you'll always have dozens of ideas that you want to implement. The limiting factor is how quickly can you iterate through them. The faster you go, the quicker you learn about the problem.
 
