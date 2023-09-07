@@ -198,8 +198,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     ```
     to
     ```
-    x += y
-    x -= x >= m ? m : 0
+    x = x + y
+    x -= (x >= m) ? m : 0
     ```
     is quite often faster. Assuming `y < m, y > 0, m > 0`.
    
