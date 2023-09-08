@@ -12,8 +12,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 ## Abbreviations
 
 - CP = (Classic) Competetive Programming
-- BC = Bot Contests
 - HC = Heuristic Contests
+- BC = Bot Contests
 - SA = Simulated Annealing
 
 ## Psyho's tips
