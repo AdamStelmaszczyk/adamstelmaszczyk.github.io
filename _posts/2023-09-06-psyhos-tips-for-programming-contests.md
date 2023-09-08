@@ -229,7 +229,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 64. Extend "Fast-Clearing Array".
 
-    - If each clear increases your counter by `RANGE`, you can store values in `0..RANGE-1`.
+    - If each clear increases your threshold by `RANGE`, you can store values in `0..RANGE-1`.
     - If collisions are acceptable, in many cases this can replace your sets/maps.
     ```
     int RANGE = 1000;
@@ -267,7 +267,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 70. SIMD/auto-vectorization is very powerful. I never really use this nowadays, but it's still a powerful tool. Using SSE/AVX instruction set feels like solving mini puzzles. It's easy to outperform the best compilers, and you can get 2-20x speed up in critical places.
 
-71. You can (mostly) override compiler flags via `#pragma GCC optimize (...)`. I have `Ofast,omit-frame-pointer,inline,unroll-all-loops`. In theory, `omit-frame-pointer` is included in -O1, but it was faster 🤷. You can do HC on compiler flags 😅
+71. You can (mostly) override compiler flags via `#pragma GCC optimize (...)`. I have `Ofast,omit-frame-pointer,inline,unroll-all-loops`. In theory, `omit-frame-pointer` is included in -O1, but it was faster 🤷 You can do HC on compiler flags 😅
 
 72. There's a new concept in BC: metagame. What is the best strategy often depends on the dominating strategies of other players. This is especially problematic in games with imperfect information. Forget about decent evaluation of your solution.
 
@@ -277,7 +277,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 75. Remember tip 20? Contests are feedback loops. When you can't effectively evaluate your solution, it's hard to quickly develop your intuition. In BC you get a lot of noisy feedback and you have to make very wild guesses about the next steps.
 
-76.  BC require much bigger time investment than heuristic contests.
+76. BC require much bigger time investment than heuristic contests.
 
     - very weak feedback mechanism
     - constantly evolving metagame
@@ -286,8 +286,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 77. Due to interactivity they tend to be way more fun than HC. Despite that, I generally don't recommend BC as a good learning platform for newcomers. Feedback loop is ineffective so it's harder to associate your actions with the outcome.
 
-78.  ost of the skills & wisdom gained from H Care applicable to BC contests. Prototyping. Good workflow. Code optimization. Many of the algorithms & techniques are still applicable (beam search is still useful).
+78. Most of the skills & wisdom gained from HC are applicable to BC. Prototyping. Good workflow. Code optimization. Many of the algorithms & techniques are still applicable (beam search is still useful).
 
-79.  Most of the techniques fall into two types: complex state evaluation functions (aka heuristics) and search (beam search, rollouts, MCTS). It highly depends on the problem which one is more viable, but you have to master both to succeed. Extreme form of state evaluations are neural networks.
+79. Most of the techniques fall into two types: complex state evaluation functions (aka heuristics) and search (beam search, rollouts, MCTS). It highly depends on the problem which one is more viable, but you have to master both to succeed. Extreme form of state evaluations are neural networks.
 
 80. Because the evaluation is very noisy it's often a good idea to ignore it altogether and focus on a solution that you believe will work. Search-based solutions tend to be more metagame agnostic. You can also develop a local league system for automatic state evaluation adjustments. I've been working on a simple local league [system](https://github.com/FakePsyho/psyleague) that would do automatic matchmaking. Somewhat similar tool to [psytester](https://github.com/FakePsyho/psytester) but for bot contests.
