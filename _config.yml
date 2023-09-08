@@ -12,6 +12,8 @@ linkedin_username: "adamstelmaszczyk"
 google_analytics: G-DFDJBEBZMF
 
 theme: minima
+
+markdown: GFM
    
 plugins:
   - jekyll-feed
