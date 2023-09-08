@@ -222,10 +222,10 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 65. For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
 
 66. Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
-    ```
-    get(i)
-    set(i, value)
-    clear() # clears full array
+    ```c
+    int get(i)
+    void set(i, value)
+    void clear() // clears full array
     ```
     Naive implementation is O(1) + O(1) + O(N), but you can use int array with a threshold (`clear` will be `threshold++`) to make it O(1) + O(1) + O(1).
 
