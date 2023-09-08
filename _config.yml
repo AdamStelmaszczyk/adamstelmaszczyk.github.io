@@ -11,15 +11,8 @@ linkedin_username: "adamstelmaszczyk"
 
 google_analytics: G-DFDJBEBZMF
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
 theme: minima
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
+   
 plugins:
   - jekyll-feed
   - jekyll-sitemap
