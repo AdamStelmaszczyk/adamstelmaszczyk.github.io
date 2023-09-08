@@ -9,6 +9,14 @@ I've recently stumbled across his Twitter [mega thread](https://twitter.com/Fake
 
 I wished I had all of them a bit cleaned up and consolidated into one page, for easier reading and further reference. Perhaps also many others would prefer a single article instead of a Twitter thread. Also creating such a page will help me in absorbing those tips. So here we go.
 
+## Test
+
+0.  First tip.
+
+    - First item.
+
+1.  Second tip.
+
 ## Abbreviations
 
 - CP = (Classic) Competetive Programming
