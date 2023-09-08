@@ -164,7 +164,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     
     - randomized algorithms
     - different versions for quickly handling special cases
-    - pruning (early exits)
+    - pruning (early exits)  
 
 44. Being experienced in CP gives you a solid foundation for HC/BC. While algorithmic knowledge from CP is only somewhat useful, CP is wonderful for practicing your programming language & writing bug-free code as it provides very quick iteration cycles.
 
@@ -283,8 +283,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     - very weak feedback mechanism
     - constantly evolving metagame
     - access to all replays means that everyone has access to how your bot plays (and they can counter it)
-    - (often) more complex rules
-
+    - (often) more complex rules  
+  
 77. Due to interactivity they tend to be way more fun than HC. Despite that, I generally don't recommend BC as a good learning platform for newcomers. Feedback loop is ineffective so it's harder to associate your actions with the outcome.
 
 78. Most of the skills & wisdom gained from HC are applicable to BC. Prototyping. Good workflow. Code optimization. Many of the algorithms & techniques are still applicable (beam search is still useful).
@@ -292,3 +292,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 79. Most of the techniques fall into two types: complex state evaluation functions (aka heuristics) and search (beam search, rollouts, MCTS). It highly depends on the problem which one is more viable, but you have to master both to succeed. Extreme form of state evaluations are neural networks.
 
 80. Because the evaluation is very noisy it's often a good idea to ignore it altogether and focus on a solution that you believe will work. Search-based solutions tend to be more metagame agnostic. You can also develop a local league system for automatic state evaluation adjustments. I've been working on a simple local league [system](https://github.com/FakePsyho/psyleague) that would do automatic matchmaking. Somewhat similar tool to [psytester](https://github.com/FakePsyho/psytester) but for bot contests.
+    
+81. CodinGame specific: Usually time limit for the first turn is 1s, while it's only 50ms for future turns. It's very often useful to use the first turn to "think" for the next 2-3 turns if opponent have very limited actions.
+
+82. Chasing current metagame and imitating top players might give you good placement, but won't teach you too much in the long-term. If your goal is self-improvement, try avoiding those approaches.
