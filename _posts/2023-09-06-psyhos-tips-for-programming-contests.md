@@ -11,6 +11,14 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 ## Test
 
+* Winning threats:
+  * (5, 1): five
+  * (4, 2): open four
+* Forcing threats:
+  * (4, 1): simple four
+  * (3, 3): open three
+  * (3, 2): broken three
+
 0.  First tip.
 
     - First item.  
