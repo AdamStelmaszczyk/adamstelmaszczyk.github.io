@@ -220,7 +220,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 62. For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
 
 63. Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
-    ```
+    ```c
     get(i)
     set(i, value)
     clear() # clears full array
@@ -232,7 +232,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     - If each clear increases your threshold by `RANGE`, you can store values in `0..RANGE-1`.
     - If collisions are acceptable, in many cases this can replace your sets/maps.
   
-    ```
+    ```c
     int RANGE = 1000;
     int threshold = 0;
     int a[N] = {0,};
@@ -284,7 +284,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     - constantly evolving metagame
     - access to all replays means that everyone has access to how your bot plays (and they can counter it)
     - (often) more complex rules
-      
+   
+---
   
 77. Due to interactivity they tend to be way more fun than HC. Despite that, I generally don't recommend BC as a good learning platform for newcomers. Feedback loop is ineffective so it's harder to associate your actions with the outcome.
 
