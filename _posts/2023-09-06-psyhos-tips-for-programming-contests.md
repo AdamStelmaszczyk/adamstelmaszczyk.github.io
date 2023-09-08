@@ -18,7 +18,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 ## Psyho's tips
 
-0.  Everyone is unique & has different background. Each one of us struggles with different subjects. Not every piece of advice is going to be applicable for you, but I'll try making all tips as general as possible & mention if something is situation specific. 
+0.  Everyone is unique and has different background. Each one of us struggles with different subjects. Not every piece of advice is going to be applicable for you, but I'll try making all tips as general as possible amd mention if something is situation specific. 
 
 1.  In a week-long contest there's enough to do **all** of the research during the contest. No matter how inexperienced you are, if you put a lot of effort into a single contest. You have a chance of winning it. This is in contrast to CP where you have to train for years.   
 
