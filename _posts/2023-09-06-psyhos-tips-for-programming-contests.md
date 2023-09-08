@@ -164,7 +164,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     
     - randomized algorithms
     - different versions for quickly handling special cases
-    - pruning (early exits)  
+    - pruning (early exits)
 
 44. Being experienced in CP gives you a solid foundation for HC/BC. While algorithmic knowledge from CP is only somewhat useful, CP is wonderful for practicing your programming language & writing bug-free code as it provides very quick iteration cycles.
 
