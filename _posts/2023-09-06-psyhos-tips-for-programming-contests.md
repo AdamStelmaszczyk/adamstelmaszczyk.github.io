@@ -64,12 +64,10 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 10. All local-search alternatives to SA are (almost always) bad. Genetic Algorithms, Tabu Search, Ant Colony, etc. Just forgot them. They are not only less effective, but slower to implement.
 
 11. Why SA?
-
     - You can start with Hill Climbing and convert to SA with 2 additional lines.
     - Gives you ability of fast dynamic evaluations.
     - When tweaked properly has higher potential (due to fast evaluations) than other methods.
     - Allows for very fast iterations.  
-
 12. Standard SA:
     
     Temperature schedule: `t = t_start * pow((t_final / t_start), time_passed)`, where `time_passed` is in `0..1`.  
