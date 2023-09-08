@@ -24,7 +24,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 2.  You never need any advanced math. There is always alternative of writing simulation code. In ~200 contests I've done, I can recall a single instance someone performed better due to math knowledge. Exception: Bayes' theorem. For reference: I don't know calculus 😅   
 
-3.  In HC there are only two common techniques that are worth knowing: Beam Search & Simulated Annealing. Rarely, it's useful to have decent experience with Graph Theory, Dynamic Programming, Linear Programming & Flow Problems.   
+3.  In HC there are only two common techniques that are worth knowing: Beam Search & SA. Rarely, it's useful to have decent experience with Graph Theory, Dynamic Programming, Linear Programming & Flow Problems.   
 
 4.  Touch typing is extremely important. If you can't, that should be your #1 priority. It takes roughly 10-30h for most. Touch typing gives you an ability to think about other things while coding. Reduces number of bugs, smooths out prototyping, etc.   
 
