@@ -78,7 +78,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     
     - make sure your RNG is not a bottleneck
     - make sure your exp function is not a bottleneck
-    - make sure your function that gets current time is not a bottleneck
+    - make sure your function that gets current time is not a bottleneck  
 
     That happens way more often than you may think.
 
@@ -111,7 +111,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 22. Use a good local tester. The absolute minimum are two functionalities:
     
     - multithreading (ability to run multiple tests on separate threads)
-    - relative scoring (which is a standard on topcoder)
+    - relative scoring (which is a standard on topcoder)  
      
     If you don't have your own, use [mine](https://github.com/FakePsyho/psytester).
 
