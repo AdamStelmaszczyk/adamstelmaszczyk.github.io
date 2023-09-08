@@ -20,7 +20,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 0.  Everyone is unique & has different background. Each one of us struggles with different subjects. Not every piece of advice is going to be applicable for you, but I'll try making all tips as general as possible & mention if something is situation specific. 
 
-1.  In a week-long contest there's enough to do ALL of the research during the contest. No matter how inexperienced you are, if you put a lot of effort into a single contest. You have a chance of winning it. This is in contrast to CP where you have to train for years.   
+1.  In a week-long contest there's enough to do **all** of the research during the contest. No matter how inexperienced you are, if you put a lot of effort into a single contest. You have a chance of winning it. This is in contrast to CP where you have to train for years.   
 
 2.  You never need any advanced math. There is always alternative of writing simulation code. In ~200 contests I've done, I can recall a single instance someone performed better due to math knowledge. Exception: Bayes' theorem. For reference: I don't know calculus 😅   
 
