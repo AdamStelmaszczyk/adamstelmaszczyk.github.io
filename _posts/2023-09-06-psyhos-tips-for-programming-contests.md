@@ -51,7 +51,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     - Gives you ability of fast dynamic evaluations.
     - When tweaked properly has higher potential (due to fast evaluations) than other methods.
     - Allows for very fast iterations.
-   
+       
 14. Standard SA:
     
     Temperature schedule: `t = t_start * pow((t_final / t_start), time_passed)`, where `time_passed` is in `0..1`.  
@@ -213,13 +213,15 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
    
     > Because addition/subtraction is in AC0, and modulo is not. To say it in a less sophisticated way, the circuit for addition is constant-depth and also much simpler. Which is important given that your processor literally does math via in-built circuits. 
 
-    Integer division has roughly ~100x longer latency than add/sub for Intel Skylake, [http://gmplib.org/~tege/x86-timing.pdf](http://gmplib.org/~tege/x86-timing.pdf).
+    Integer division has roughly ~100x longer latency than `add`/`sub` for Intel Skylake, [http://gmplib.org/~tege/x86-timing.pdf](http://gmplib.org/~tege/x86-timing.pdf).
 
-63. Pre-compute everything you can and store those values in arrays. It's not always better, but some operations might be slower than you think. For example, precalculating `pow(x, y)` is quite often faster than calculating it on the fly.
+    Ternary operator `?:` will not cause branch prediction miss, because it is compiled to a conditional move, `cmov`, which has latency similar to `add` or slightly worse (but not 100x worse).
 
-64. For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
+64. Pre-compute everything you can and store those values in arrays. It's not always better, but some operations might be slower than you think. For example, precalculating `pow(x, y)` is quite often faster than calculating it on the fly.
 
-65. Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
+65. For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
+
+66. Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
     ```
     get(i)
     set(i, value)
@@ -227,7 +229,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     ```
     Naive implementation is O(1) + O(1) + O(N), but you can use int array with a threshold (`clear` will be `threshold++`) to make it O(1) + O(1) + O(1).
 
-66. Extend "Fast-Clearing Array".
+67. Extend "Fast-Clearing Array".
 
     - If each clear increases your threshold by `RANGE`, you can store values in `0..RANGE-1`.
     - If collisions are acceptable, in many cases this can replace your sets/maps.  
@@ -256,43 +258,43 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
         }
         ```
 
-67. Adding special guardians/boundaries in your graphs can reduce the number of operations during pathfinding. For example, when you run BFS on 2D grid, you can extend the grid by 1 in all directions to avoid checking for boundary condition (stepping outside of grid).
+68. Adding special guardians/boundaries in your graphs can reduce the number of operations during pathfinding. For example, when you run BFS on 2D grid, you can extend the grid by 1 in all directions to avoid checking for boundary condition (stepping outside of grid).
 
-68. The most important speedup you'll commonly perform is to make your algorithm dynamic. For example if you apply SA to Traveling Salesman Problem and your transition is move a city to another point in path, your evaluation should be O(1), because you only care about delta.
+69. The most important speedup you'll commonly perform is to make your algorithm dynamic. For example if you apply SA to Traveling Salesman Problem and your transition is move a city to another point in path, your evaluation should be O(1), because you only care about delta.
 
-69. Measuring time is (often) costly. The fastest way is to call `rdtsc`, but some sites use different way of measuring time. Commonly used `gettimeofday()` in C++ is a system call and on some platforms those are very expensive. There was one time when 1K calls took over 1s.
+70. Measuring time is (often) costly. The fastest way is to call `rdtsc`, but some sites use different way of measuring time. Commonly used `gettimeofday()` in C++ is a system call and on some platforms those are very expensive. There was one time when 1K calls took over 1s.
 
-70. Use pruning / early exits / simplified calculations. This doesn't happen very often, but there are cases where you simply skip some calculations. This mostly happens with your evaluation function where some transitions completely ruin your score and you can quickly tell that.
+71. Use pruning / early exits / simplified calculations. This doesn't happen very often, but there are cases where you simply skip some calculations. This mostly happens with your evaluation function where some transitions completely ruin your score and you can quickly tell that.
 
-71. If you're doing very heavy code optimization mirror the "judge" machine. Having the exact version of gcc is way more important than anything else. That being said, I generally don't advise fighting for <5% speed ups. Parameter optimization is way easier.
+72. If you're doing very heavy code optimization mirror the "judge" machine. Having the exact version of gcc is way more important than anything else. That being said, I generally don't advise fighting for <5% speed ups. Parameter optimization is way easier.
 
-72. SIMD/auto-vectorization is very powerful. I never really use this nowadays, but it's still a powerful tool. Using SSE/AVX instruction set feels like solving mini puzzles. It's easy to outperform the best compilers, and you can get 2-20x speed up in critical places.
+73. SIMD/auto-vectorization is very powerful. I never really use this nowadays, but it's still a powerful tool. Using SSE/AVX instruction set feels like solving mini puzzles. It's easy to outperform the best compilers, and you can get 2-20x speed up in critical places.
 
-73. You can (mostly) override compiler flags via `#pragma GCC optimize (...)`. I have `Ofast,omit-frame-pointer,inline,unroll-all-loops`. In theory, `omit-frame-pointer` is included in -O1, but it was faster 🤷 You can do HC on compiler flags 😅
+74. You can (mostly) override compiler flags via `#pragma GCC optimize (...)`. I have `Ofast,omit-frame-pointer,inline,unroll-all-loops`. In theory, `omit-frame-pointer` is included in -O1, but it was faster 🤷 You can do HC on compiler flags 😅
 
-74. There's a new concept in BC: metagame. What is the best strategy often depends on the dominating strategies of other players. This is especially problematic in games with imperfect information. Forget about decent evaluation of your solution.
+75. There's a new concept in BC: metagame. What is the best strategy often depends on the dominating strategies of other players. This is especially problematic in games with imperfect information. Forget about decent evaluation of your solution.
 
-75. Each "test" is essentially a single 2-player game with binary outcome. Either you win or lose, no matter how big your advantage/disadvantage was. Forget about decent evaluation of your solution.
+76. Each "test" is essentially a single 2-player game with binary outcome. Either you win or lose, no matter how big your advantage/disadvantage was. Forget about decent evaluation of your solution.
 
-76. In order to be able to perform viable local tests, you need a wide spectrum of different approaches that's representative of bots on the leaderboard. Forget about decent evaluation of your solution.
+77. In order to be able to perform viable local tests, you need a wide spectrum of different approaches that's representative of bots on the leaderboard. Forget about decent evaluation of your solution.
 
-77. Remember tip 20? Contests are feedback loops. When you can't effectively evaluate your solution, it's hard to quickly develop your intuition. In BC you get a lot of noisy feedback and you have to make very wild guesses about the next steps.
+78. Remember tip 20? Contests are feedback loops. When you can't effectively evaluate your solution, it's hard to quickly develop your intuition. In BC you get a lot of noisy feedback and you have to make very wild guesses about the next steps.
 
-78. BC require much bigger time investment than heuristic contests.
+79. BC require much bigger time investment than heuristic contests.
 
     - very weak feedback mechanism
     - constantly evolving metagame
     - access to all replays means that everyone has access to how your bot plays (and they can counter it
     - (often) more complex rules
   
-79. Due to interactivity they tend to be way more fun than HC. Despite that, I generally don't recommend BC as a good learning platform for newcomers. Feedback loop is ineffective so it's harder to associate your actions with the outcome.
+80. Due to interactivity they tend to be way more fun than HC. Despite that, I generally don't recommend BC as a good learning platform for newcomers. Feedback loop is ineffective so it's harder to associate your actions with the outcome.
 
-80. Most of the skills & wisdom gained from HC are applicable to BC. Prototyping. Good workflow. Code optimization. Many of the algorithms & techniques are still applicable (beam search is still useful).
+81. Most of the skills & wisdom gained from HC are applicable to BC. Prototyping. Good workflow. Code optimization. Many of the algorithms & techniques are still applicable (beam search is still useful).
 
-81. Most of the techniques fall into two types: complex state evaluation functions (aka heuristics) and search (beam search, rollouts, MCTS). It highly depends on the problem which one is more viable, but you have to master both to succeed. Extreme form of state evaluations are neural networks.
+82. Most of the techniques fall into two types: complex state evaluation functions (aka heuristics) and search (beam search, rollouts, MCTS). It highly depends on the problem which one is more viable, but you have to master both to succeed. Extreme form of state evaluations are neural networks.
 
-82. Because the evaluation is very noisy it's often a good idea to ignore it altogether and focus on a solution that you believe will work. Search-based solutions tend to be more metagame agnostic. You can also develop a local league system for automatic state evaluation adjustments. I've been working on a simple local league [system](https://github.com/FakePsyho/psyleague) that would do automatic matchmaking. Somewhat similar tool to [psytester](https://github.com/FakePsyho/psytester) but for bot contests.
+83. Because the evaluation is very noisy it's often a good idea to ignore it altogether and focus on a solution that you believe will work. Search-based solutions tend to be more metagame agnostic. You can also develop a local league system for automatic state evaluation adjustments. I've been working on a simple local league [system](https://github.com/FakePsyho/psyleague) that would do automatic matchmaking. Somewhat similar tool to [psytester](https://github.com/FakePsyho/psytester) but for bot contests.
     
-83. CodinGame specific: Usually time limit for the first turn is 1s, while it's only 50ms for future turns. It's very often useful to use the first turn to "think" for the next 2-3 turns if opponent have very limited actions.
+84. CodinGame specific: Usually time limit for the first turn is 1s, while it's only 50ms for future turns. It's very often useful to use the first turn to "think" for the next 2-3 turns if opponent have very limited actions.
 
-84. Chasing current metagame and imitating top players might give you good placement, but won't teach you too much in the long-term. If your goal is self-improvement, try avoiding those approaches.
+85. Chasing current metagame and imitating top players might give you good placement, but won't teach you too much in the long-term. If your goal is self-improvement, try avoiding those approaches.
