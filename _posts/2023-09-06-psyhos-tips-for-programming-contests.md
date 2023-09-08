@@ -19,21 +19,13 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
   * (3, 3): open three
   * (3, 2): broken three
 
-0.  First tip.
-
-    - First item.  
-    - Second item.
-
-1.  Second tip.
-
-    - Third item.
-
-3.  Third tip.
-    - Fourth item.
-4.  Fourth tip.
-    - Fifth item.
-  
-5.  Six tip.
+0. Winning threats:
+   * (5, 1): five
+   * (4, 2): open four
+1. Forcing threats:
+   * (4, 1): simple four
+   * (3, 3): open three
+   * (3, 2): broken three
 
 ## Abbreviations
 
