@@ -233,30 +233,31 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
     - If each clear increases your threshold by `RANGE`, you can store values in `0..RANGE-1`.
     - If collisions are acceptable, in many cases this can replace your sets/maps.  
-  
-        ```c
-        int RANGE = 1000;
-        int threshold = 0;
-        int a[N] = {0,};
-        
-        int get(int i) {
-           return a[i] >= threshold ? a[i] - threshold : 0;
-        }
-        
-        void set(int i, int value) {
-           if (value > RANGE) {
-               throw std::invalid_argument("Value greater than RANGE")
-           }
-           a[i] = value + threshold;
-        }
-        
-        void clear() {
-           if (threshold >= INT_MAX - RANGE) {
-               throw std::runtime_error("Threshold overflow")
-           }
-           threshold += RANGE;
-        }
-        ```
+
+    Example:
+    ```c
+    int RANGE = 1000;
+    int threshold = 0;
+    int a[N] = {0,};
+    
+    int get(int i) {
+       return a[i] >= threshold ? a[i] - threshold : 0;
+    }
+    
+    void set(int i, int value) {
+       if (value > RANGE) {
+           throw std::invalid_argument("Value greater than RANGE")
+       }
+       a[i] = value + threshold;
+    }
+    
+    void clear() {
+       if (threshold >= INT_MAX - RANGE) {
+           throw std::runtime_error("Threshold overflow")
+       }
+       threshold += RANGE;
+    }
+    ```
 
 68. Adding special guardians/boundaries in your graphs can reduce the number of operations during pathfinding. For example, when you run BFS on 2D grid, you can extend the grid by 1 in all directions to avoid checking for boundary condition (stepping outside of grid).
 
