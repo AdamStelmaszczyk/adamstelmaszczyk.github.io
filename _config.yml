@@ -13,7 +13,7 @@ google_analytics: G-DFDJBEBZMF
 
 theme: minima
 
-markdown: GFM
+markdown: kramdown
    
 plugins:
   - jekyll-feed
