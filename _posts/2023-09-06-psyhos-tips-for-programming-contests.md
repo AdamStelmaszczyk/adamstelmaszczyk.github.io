@@ -13,11 +13,19 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 0.  First tip.
 
-    - First item.
-  
+    - First item.  
     - Second item.
 
 1.  Second tip.
+
+    - Third item.
+
+3.  Third tip.
+    - Fourth item.
+4.  Fourth tip.
+    - Fifth item.
+  
+5.  Six tip.
 
 ## Abbreviations
 
