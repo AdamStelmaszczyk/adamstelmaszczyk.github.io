@@ -221,8 +221,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 63. Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
     ```
-    set(i, value)
     get(i)
+    set(i, value)
     clear() # clears full array
     ```
     Naive implementation is O(1) + O(1) + O(N), but you can use int array with a threshold (`clear` will be `threshold++`) to make it O(1) + O(1) + O(1).
@@ -283,7 +283,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     - very weak feedback mechanism
     - constantly evolving metagame
     - access to all replays means that everyone has access to how your bot plays (and they can counter it)
-    - (often) more complex rules  
+    - (often) more complex rules
+      
   
 77. Due to interactivity they tend to be way more fun than HC. Despite that, I generally don't recommend BC as a good learning platform for newcomers. Feedback loop is ineffective so it's harder to associate your actions with the outcome.
 
