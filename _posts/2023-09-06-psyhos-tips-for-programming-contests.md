@@ -32,10 +32,10 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
    
 6. The best sites for contests:
 
-    HC: Topcoder (MM, Marathon Match), AtCoder (AHC, AtCoder Heuristic Contest)  
-    BC: CodinGame
+   HC: Topcoder (MM, Marathon Match), AtCoder (AHC, AtCoder Heuristic Contest)  
+   BC: CodinGame
 
-    All sites feature good problems, fair evaluation system & community that talks about solutions post-contest. Some sites might be rough on the UI side ;)
+   All sites feature good problems, fair evaluation system & community that talks about solutions post-contest. Some sites might be rough on the UI side ;)
 
 7. In HC, Googling about the problem is generally a waste of time. Good problem design (above sites) means that problem writers made sure that the problems are unique. There are rare exceptions; it might be useful to research a particular subproblem that exist.
 
