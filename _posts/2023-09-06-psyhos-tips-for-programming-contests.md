@@ -234,7 +234,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
     - If each clear increases your threshold by `RANGE`, you can store values in `0..RANGE-1`.
     - If collisions are acceptable, in many cases this can replace your sets/maps.  
 
-    Example:
+    Example of "Fast-Clearing Array":
     ```c
     int RANGE = 1000;
     int threshold = 0;
