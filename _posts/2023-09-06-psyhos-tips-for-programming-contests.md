@@ -220,7 +220,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 62. For large arrays, use smaller variable types if it's enough. Memory copying/clearing only cares about the number of bytes. This also improves overall cache efficiency. Don't do it for single variables.
 
 63. Use "Fast-Clearing Array". Imagine you need a boolean array with 3 different operations:
-    ```c
+    ```
     get(i)
     set(i, value)
     clear() # clears full array
@@ -230,31 +230,31 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 64. Extend "Fast-Clearing Array".
 
     - If each clear increases your threshold by `RANGE`, you can store values in `0..RANGE-1`.
-    - If collisions are acceptable, in many cases this can replace your sets/maps.
+    - If collisions are acceptable, in many cases this can replace your sets/maps.  
   
-    ```c
-    int RANGE = 1000;
-    int threshold = 0;
-    int a[N] = {0,};
-   
-    int get(int i) {
-        return a[i] >= threshold ? a[i] - threshold : 0;
-    }
-   
-    void set(int i, int value) {
-        if (value > RANGE) {
-            throw std::invalid_argument("Value greater than RANGE")
+        ```c
+        int RANGE = 1000;
+        int threshold = 0;
+        int a[N] = {0,};
+        
+        int get(int i) {
+           return a[i] >= threshold ? a[i] - threshold : 0;
         }
-        a[i] = value + threshold;
-    }
-   
-    void clear() {
-        if (threshold >= INT_MAX - RANGE) {
-            throw std::runtime_error("Threshold overflow")
+        
+        void set(int i, int value) {
+           if (value > RANGE) {
+               throw std::invalid_argument("Value greater than RANGE")
+           }
+           a[i] = value + threshold;
         }
-        threshold += RANGE;
-    }
-    ```
+        
+        void clear() {
+           if (threshold >= INT_MAX - RANGE) {
+               throw std::runtime_error("Threshold overflow")
+           }
+           threshold += RANGE;
+        }
+        ```
 
 65. Adding special guardians/boundaries in your graphs can reduce the number of operations during pathfinding. For example, when you run BFS on 2D grid, you can extend the grid by 1 in all directions to avoid checking for boundary condition (stepping outside of grid).
 
