@@ -7,7 +7,7 @@ Translating the Polish wiki [page](https://pl.wikipedia.org/wiki/Przemys%C5%82aw
 
 I've recently stumbled across his Twitter [mega thread](https://twitter.com/FakePsyho/status/1605570944537280512), in which he posted many programming tips. Goldmine.
 
-I wished I had all of them a bit cleaned up and consolidated into one page, for easier reading and further reference. Perhaps also many others would prefer a single article instead of a Twitter thread. Also creating such a page will help me in absorbing those tips. So here we go.
+I wished I had all of them a bit cleaned up and consolidated into one page, for easier reading and further reference. Perhaps also many others would prefer a single article instead of a Twitter thread. Also creating such a page will help me absorbing those tips. So here we go.
 
 ## Abbreviations
 
