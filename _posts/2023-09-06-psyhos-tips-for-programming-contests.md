@@ -12,8 +12,8 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 ## Abbreviations
 
 - CP = (Classic) Competetive Programming
-- HC = Heuristic Contests
-- BC = Bot Contests
+- HC = Heuristic Contests (e.g. TopCoder Marathon Matches, Kaggle)
+- BC = Bot Contests (e.g. CodinGame)
 - SA = Simulated Annealing
 
 ## Psyho's tips
