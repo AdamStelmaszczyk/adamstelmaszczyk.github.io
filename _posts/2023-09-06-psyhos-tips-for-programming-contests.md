@@ -7,7 +7,7 @@ Translating the Polish wiki [page](https://pl.wikipedia.org/wiki/Przemys%C5%82aw
 
 I've recently stumbled across his Twitter [mega thread](https://twitter.com/FakePsyho/status/1605570944537280512), in which he posted many programming tips. Goldmine.
 
-I wished I had all of them a bit cleaned up and consolidated into one page, for easier reading and further reference. Perhaps also many others would prefer a single article instead of a Twitter thread. Also creating such a page will help me absorbing those tips. So here we go.
+I wished I had all of them a bit cleaned up and consolidated into one page, for easier reading and further reference. Perhaps also others would prefer a single article instead of a Twitter thread. Also creating such a page will help me absorbing those tips. So here it is.
 
 ## Abbreviations
 
@@ -18,7 +18,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 ## Psyho's tips
 
-0.  Everyone is unique and has different background. Each one of us struggles with different subjects. Not every piece of advice is going to be applicable for you, but I'll try making all tips as general as possible amd mention if something is situation specific. 
+0.  Everyone is unique and has different background. Each one of us struggles with different subjects. Not every piece of advice is going to be applicable for you, but I'll try making all tips as general as possible and mention if something is situation specific. 
 
 1.  In a week-long contest there's enough time to do **all** of the research during the contest. No matter how inexperienced you are, if you put a lot of effort into a single contest, you have a chance of winning. This is in contrast to CP where you have to train for years.   
 
