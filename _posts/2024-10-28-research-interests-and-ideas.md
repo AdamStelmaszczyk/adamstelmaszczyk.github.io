@@ -43,5 +43,5 @@ e.g. AI finding out which data needs or using it more efficiently.
 
 ## My publications so far
 
-2017, _Learning to Run challenge solutions: Adapting reinforcement learning methods for neuromusculoskeletal environments_, https://arxiv.org/abs/1804.00361  
+2017, _Learning to Run challenge solutions: Adapting reinforcement learning methods for neuromusculoskeletal environments_, https://arxiv.org/abs/1804.00361, https://github.com/AdamStelmaszczyk/learning2run  
 2014, Master's thesis, _DE/mid – new variant of differential evolution algorithm using the midpoint of the population_, https://github.com/AdamStelmaszczyk/masters-thesis  
