@@ -40,10 +40,10 @@ Roughly in order of familiarity:
 3. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
 Building an approximate model during the evolutionary search, e.g. to have a faster/cheaper simulator or to improve the search.
 
-4. "Higher abstraction layer". From the lowest one in AI we have: the hardware,
+4. "Higher abstraction layer". From the lowest layer we have: hardware,
 programming languages, machine learning... maybe we could add something useful on top?
-Go more meta / general? Maybe not fitting one function with some data, but perhaps...
-multiple functions / architectures / algorithms... Or we could focus more on the data part, e.g. AI finding out which data needs or using it more efficiently.
+Go more meta? Maybe not fitting one function with some data, but
+multiple functions / architectures / algorithms... Or we could focus more on data part, e.g. AI finding out more data by itself or using it more efficiently.
 
 6. Study metaheuristics from [wiki](https://en.wikipedia.org/wiki/Table_of_metaheuristics).
 
