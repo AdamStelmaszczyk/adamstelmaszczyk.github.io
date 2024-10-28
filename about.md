@@ -1,3 +1,9 @@
+---
+layout: page
+title: About me
+permalink: /about/
+---
+
 ## Research interests
 
 Roughly in order of mine familiarity:
