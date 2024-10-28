@@ -25,10 +25,10 @@ Roughly in order of mine familiarity:
    Neuroevolution papers:
 
    2017 OpenAI _Evolution Strategies as a Scalable Alternative to Reinforcement Learning_  
-   2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for     Training Deep Neural Networks for Reinforcement Learning_  
+   2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning_  
    2021 Nature _Correspondence between neuroevolution and gradient descent_ ❤️
 
-   TODO: read 2021 "Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy", but need a PDF.
+   TODO: read Jagodziński's 2021 _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_, but need a PDF.
 
 3. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
 Building an approximate model during the evolutionary search, e.g. to have a faster/cheaper simulator.
