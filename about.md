@@ -14,9 +14,9 @@ Roughly in order of familiarity:
 - Machine learning
   - Reinforcement learning
   - Neural networks
-- AI safety
 - Computer games
 - Game theory
+- AI safety
 
 ## Research ideas / directions
 
