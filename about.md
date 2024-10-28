@@ -38,7 +38,7 @@ Roughly in order of familiarity:
    TODO: read Jagodziński's 2021 _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_, but need a PDF.
 
 3. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
-Building an approximate model during the evolutionary search, e.g. to have a faster/cheaper simulator.
+Building an approximate model during the evolutionary search, e.g. to have a faster/cheaper simulator or to improve the search.
 
 4. "Higher abstraction layer". From the lowest one in AI we have: the hardware,
 programming languages, machine learning... maybe we could add something useful on top?
