@@ -13,7 +13,7 @@ Roughly in order of mine familiarity:
 
 ## Research ideas / directions
 
-1. "On the shoulders of giants". Study the work and get inspired from e.g.:
+1. "On the shoulders of giants". Get inspired from works of e.g.:
 
    David Silver, Timothy Lillicrap, Doina Precup, Richard Sutton, 
    Jürgen Schmidhuber, Sepp Hochreiter, 
