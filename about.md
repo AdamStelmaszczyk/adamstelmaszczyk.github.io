@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Research interests
 
-Roughly in order of mine familiarity:
+Roughly in order of familiarity:
 
 - Optimization
   - Search algorithms ([mine Game Tree Search Algorithms library](https://github.com/AdamStelmaszczyk/gtsa))
