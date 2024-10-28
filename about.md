@@ -44,7 +44,7 @@ programming languages, machine learning... maybe we could add something useful o
 Go more meta / general? Maybe not fitting one function with some data, but perhaps...
 multiple functions / architectures / algorithms... Or we could focus more on the data part, e.g. AI finding out which data needs or using it more efficiently.
 
-6. Study metaheuristics from [https://en.wikipedia.org/wiki/Table_of_metaheuristics#cite_note-101](https://en.wikipedia.org/wiki/Table_of_metaheuristics#cite_note-101).
+6. Study metaheuristics from [wiki](https://en.wikipedia.org/wiki/Table_of_metaheuristics).
 
 ## My publications so far
 
