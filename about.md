@@ -45,7 +45,16 @@ programming languages, machine learning... maybe we could add something useful o
 Go more meta? Maybe not fitting one function with some data, but
 multiple functions / architectures / algorithms... Or we could focus more on data part, e.g. AI finding out more data by itself or using it more efficiently.
 
-6. Study metaheuristics from [wiki](https://en.wikipedia.org/wiki/Table_of_metaheuristics).
+5. Study metaheuristics from [wiki](https://en.wikipedia.org/wiki/Table_of_metaheuristics).
+
+6. "See how current AI is different from humans and imitate that". Examples:
+  
+   - Babies learn a lot unsupervised by playing and exploring on their own.
+   - Human brain can repeair.
+   - Only choosen connections in the brain are strenghten.
+   - Newborn brain is not initiated with something random.
+  
+   A paper listing those differences would be also great.
 
 ## My publications so far
 
