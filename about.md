@@ -52,8 +52,8 @@ multiple functions / architectures / algorithms... Or we could focus more on dat
 6. "See how current AI is different from humans and imitate that". Examples:
   
    - Babies learn a lot unsupervised by playing and exploring on their own.
-   - Human brain can repeair.
-   - Only choosen connections in the brain are strenghten.
+   - The human brain can repair.
+   - Only chosen connections in the brain are strenghten.
    - Newborn brain is not initiated with something random.
   
    A paper listing those differences would be also great.
