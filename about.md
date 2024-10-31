@@ -18,7 +18,7 @@ Roughly in order of familiarity:
 - Game theory
 - AI safety
 
-## Research ideas / directions
+## Research ideas
 
 1. "On the shoulders of giants". Get inspired from works of e.g.:
 
@@ -56,7 +56,7 @@ multiple functions / architectures / algorithms... Or we could focus more on dat
   
    A paper listing those differences would be also great.
 
-## My publications so far
+## Publications
 
 2017, [_Learning to Run challenge solutions: Adapting reinforcement learning methods for neuromusculoskeletal environments_](https://arxiv.org/abs/1804.00361), [https://github.com/AdamStelmaszczyk/learning2run](https://github.com/AdamStelmaszczyk/learning2run)
 
