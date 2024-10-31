@@ -4,6 +4,8 @@ title: About me
 permalink: /about/
 ---
 
+I'm a research & teaching assistant at Warsaw University of Technology, Institute of Computer Science, Artificial Intelligence Division.
+
 ## Research interests
 
 Roughly in order of familiarity:
