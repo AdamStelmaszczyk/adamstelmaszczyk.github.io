@@ -26,7 +26,7 @@ Roughly in order of familiarity:
 
    David Silver, Timothy Lillicrap, Doina Precup, Richard Sutton, 
    Jürgen Schmidhuber, Sepp Hochreiter, 
-   John Schulman, Chelsea Flynn, Sergey Levine, Volodymyr Mnih, 
+   John Schulman, Chelsea Finn, Sergey Levine, Volodymyr Mnih, 
    Jonathan Schaeffer, David Churchill
 
 2. "Different ways of training neural nets". Improving the gradient methods, or non-gradient ones, e.g. neuroevolution.
