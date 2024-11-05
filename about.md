@@ -12,7 +12,7 @@ Roughly in order of familiarity:
 
 - Optimization
   - Search algorithms ([mine Game Tree Search Algorithms library](https://github.com/AdamStelmaszczyk/gtsa))
-  - Heuristic & metaheuristic algorithms
+  - Metaheuristic algorithms
 - Machine learning
   - Reinforcement learning
   - Neural networks
