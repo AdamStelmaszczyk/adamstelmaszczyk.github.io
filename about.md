@@ -11,8 +11,8 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 Roughly in order of familiarity:
 
 - Optimization
-  - Search algorithms ([mine Game Tree Search Algorithms library](https://github.com/AdamStelmaszczyk/gtsa))
   - Metaheuristic algorithms
+  - Search algorithms ([mine Game Tree Search Algorithms library](https://github.com/AdamStelmaszczyk/gtsa))
 - Machine learning
   - Reinforcement learning
   - Neural networks
