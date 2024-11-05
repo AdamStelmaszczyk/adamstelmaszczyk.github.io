@@ -35,7 +35,7 @@ Roughly in order of familiarity:
 
    2017 OpenAI _Evolution Strategies as a Scalable Alternative to Reinforcement Learning_  
    2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning_  
-   2021 Nature _Correspondence between neuroevolution and gradient descent_ ❤️
+   2021 Nature _Correspondence between neuroevolution and gradient descent_
 
    TODO: Jagodziński's 2021 _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_
 
