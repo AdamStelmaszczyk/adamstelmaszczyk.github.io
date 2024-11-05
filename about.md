@@ -37,7 +37,7 @@ Roughly in order of familiarity:
    2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning_  
    2021 Nature _Correspondence between neuroevolution and gradient descent_ ❤️
 
-   TODO: read Jagodziński's 2021 _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_, but need a PDF.
+   TODO: Jagodziński's 2021 _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_
 
 3. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
 Building an approximate model during the evolutionary search, e.g. to have a faster/cheaper simulator or to improve the search.
