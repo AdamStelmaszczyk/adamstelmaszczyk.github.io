@@ -8,13 +8,12 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 
 ## Research interests
 
-- Machine learning
-  - Reinforcement learning
-  - Neural networks
 - Optimization
   - Search algorithms ([Game Tree Search Algorithms library](https://github.com/AdamStelmaszczyk/gtsa))
   - Metaheuristic algorithms
-  
+- Machine learning
+  - Reinforcement learning
+  - Neural networks  
 - Computer games
 - Game theory
 - AI safety
