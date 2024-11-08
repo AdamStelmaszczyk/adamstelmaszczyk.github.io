@@ -12,9 +12,9 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
   - Reinforcement learning
   - Neural networks
 - Optimization
-  - Search algorithms ([mine Game Tree Search Algorithms library]
+  - Search algorithms ([Game Tree Search Algorithms library](https://github.com/AdamStelmaszczyk/gtsa))
   - Metaheuristic algorithms
-  (https://github.com/AdamStelmaszczyk/gtsa))
+  
 - Computer games
 - Game theory
 - AI safety
