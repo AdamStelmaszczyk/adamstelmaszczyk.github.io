@@ -24,13 +24,11 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 1. "On the shoulders of giants". Get inspired from works of e.g.:
 
    David Silver, Timothy Lillicrap, Doina Precup, Richard Sutton, 
-   Jürgen Schmidhuber, Sepp Hochreiter, 
+   Jürgen Schmidhuber, Sepp Hochreiter, David Ha,
    John Schulman, Chelsea Finn, Sergey Levine, Volodymyr Mnih, 
    Jonathan Schaeffer, David Churchill
 
-2. "Different ways of training neural nets". Improving the gradient methods, or non-gradient ones, e.g. neuroevolution.
-
-   Neuroevolution papers:
+2. "Alternative ways of training neural nets". E.g. neuroevolution:
 
    2017 OpenAI _Evolution Strategies as a Scalable Alternative to Reinforcement Learning_  
    2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning_  
@@ -39,7 +37,7 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
    TODO: Jagodziński's 2021 _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_
 
 3. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
-Building an approximate model during the evolutionary search, e.g. to have a faster/cheaper simulator or to improve the search.
+Building an approximate model during the evolutionary search, e.g. to improve it or to have a faster (but approximate) simulator (["dreaming"](https://worldmodels.github.io/).
 
 4. "Higher abstraction layer". From the lowest layer we have: hardware,
 programming languages, machine learning... maybe we could add something useful on top?
