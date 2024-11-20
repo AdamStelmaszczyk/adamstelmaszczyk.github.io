@@ -31,21 +31,20 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 
    2017 OpenAI _Evolution Strategies as a Scalable Alternative to Reinforcement Learning_  
    2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning_  
-   2021 Nature _Correspondence between neuroevolution and gradient descent_
+   2021 Nature _Correspondence between neuroevolution and gradient descent
+   2021 Dariusz Jagodziński _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_
 
-   TODO: Jagodziński's 2021 _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_
-
-3. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
+4. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
 Building a model during the evolutionary search, e.g. to improve the search or to have a faster (but approximate) simulator (["dreaming"](https://worldmodels.github.io/)).
 
-4. "Higher abstraction layer". From the lowest layer we have: hardware,
+5. "Higher abstraction layer". From the lowest layer we have: hardware,
 programming languages, machine learning... maybe we could add something useful on top?
 Go more meta? Maybe not fitting one function with some data, but
 multiple functions / architectures / algorithms... Or we could focus more on data part, e.g. AI finding out more data by itself or using it more efficiently.
 
-5. Study metaheuristics from [wiki](https://en.wikipedia.org/wiki/Table_of_metaheuristics).
+6. Study metaheuristics from [wiki](https://en.wikipedia.org/wiki/Table_of_metaheuristics).
 
-6. "See how current AI is different from humans and imitate that". Examples:
+7. "See how current AI is different from humans and imitate that". Examples:
   
    - Babies learn a lot unsupervised by playing and exploring on their own.
    - The human brain can repair.
