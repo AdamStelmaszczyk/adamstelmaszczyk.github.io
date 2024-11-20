@@ -30,8 +30,7 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 2. "Alternative ways of training neural nets". E.g. neuroevolution:
 
    2017 OpenAI _Evolution Strategies as a Scalable Alternative to Reinforcement Learning_  
-   2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning_  
-   2021 Nature _Correspondence between neuroevolution and gradient descent
+   2017 Uber _Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning_   
    2021 Dariusz Jagodziński _Deep Neuroevolution: Training Neural Networks Using a Matrix-Free Evolution Strategy_
 
 4. "There is model-based reinforcement learning, so let's do model-based evolution strategies".
