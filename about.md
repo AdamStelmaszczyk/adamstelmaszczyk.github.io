@@ -13,8 +13,7 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
   - Metaheuristic algorithms
 - Machine learning
   - Reinforcement learning
-  - Neural networks  
-- Computer games
+  - Neural networks
 - Game theory
 - AI safety
 
@@ -41,9 +40,7 @@ programming languages, machine learning... maybe we could add something useful o
 Go more meta? Maybe not fitting one function with some data, but
 multiple functions / architectures / algorithms... Or we could focus more on data part, e.g. AI finding out more data by itself or using it more efficiently.
 
-6. Study metaheuristics from [wiki](https://en.wikipedia.org/wiki/Table_of_metaheuristics).
-
-7. "See how current AI is different from humans and imitate that". Examples:
+6. "See how current AI is different from humans and imitate that". Examples:
   
    - Babies learn a lot unsupervised by playing and exploring on their own.
    - The human brain can repair.
