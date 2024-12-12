@@ -23,8 +23,7 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 
    David Silver, Timothy Lillicrap, Doina Precup, Richard Sutton, 
    Jürgen Schmidhuber, Sepp Hochreiter, David Ha,
-   John Schulman, Chelsea Finn, Sergey Levine, Volodymyr Mnih, 
-   Jonathan Schaeffer, David Churchill
+   John Schulman, Chelsea Finn, Sergey Levine, Volodymyr Mnih, Jonathan Schaeffer
 
 2. "Alternative ways of training neural nets". E.g. neuroevolution:
 
