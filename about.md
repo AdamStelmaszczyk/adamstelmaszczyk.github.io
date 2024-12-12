@@ -15,7 +15,6 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
   - Reinforcement learning
   - Neural networks
 - Game theory
-- AI safety
 
 ## Research ideas
 
