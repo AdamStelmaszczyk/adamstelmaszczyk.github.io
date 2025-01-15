@@ -16,6 +16,7 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
   - Neural networks
 - Game theory
 
+<!--
 ## Research ideas
 
 1. "On the shoulders of giants". Get inspired from works of e.g.:
@@ -36,9 +37,10 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
    - Newborn brain is not initiated with something random.
   
    A paper listing those differences would be also great.
+-->
 
 ## Publications
 
-2017, [_Learning to Run challenge solutions: Adapting reinforcement learning methods for neuromusculoskeletal environments_](https://arxiv.org/abs/1804.00361), [https://github.com/AdamStelmaszczyk/learning2run](https://github.com/AdamStelmaszczyk/learning2run)
+2017, [Learning to Run challenge solutions: Adapting reinforcement learning methods for neuromusculoskeletal environments](https://github.com/AdamStelmaszczyk/learning2run)
 
-2014, Master's thesis, [_DE/mid – new variant of differential evolution algorithm using the midpoint of the population_](https://github.com/AdamStelmaszczyk/masters-thesis)
+2014, Master's thesis, [DE/mid – new variant of differential evolution algorithm using the midpoint of the population](https://github.com/AdamStelmaszczyk/masters-thesis)
