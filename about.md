@@ -4,9 +4,9 @@ title: About me
 permalink: /about/
 ---
 
-I'm a research and teaching assistant at Warsaw University of Technology, Faculty of Electronics and Information Technology, Institute of Computer Science, Artificial Intelligence Division.
-
 <img src="{{site.url}}/images/adam.jpg" alt="My Profile Picture" width="200">
+
+I'm a research and teaching assistant at Warsaw University of Technology, Faculty of Electronics and Information Technology, Institute of Computer Science, Artificial Intelligence Division.
 
 ## Research interests
 
