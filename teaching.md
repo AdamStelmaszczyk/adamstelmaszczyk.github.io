@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Dydaktyka, semestr 25Z
+title: Teaching
 permalink: /teaching/
 ---
 
-## [WSI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=103A-INxxx-ISP-WSI) (Wprowadzenie do sztucznej inteligencji)
+## Semestr 25Z
+
+### [WSI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=103A-INxxx-ISP-WSI) (Wprowadzenie do sztucznej inteligencji)
 
 Harmonogram ćwiczeń oraz zasady tak jak [tutaj](https://staff.elka.pw.edu.pl/~knalecz/), z tym, że rozwiązania proszę przesyłać na:
 
