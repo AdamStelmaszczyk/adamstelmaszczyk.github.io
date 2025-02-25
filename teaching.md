@@ -10,7 +10,7 @@ permalink: /teaching/
 
 Harmonogram ćwiczeń znajduje się [tutaj](https://staff.elka.pw.edu.pl/~knalecz).
 
-Zasady są opisane [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI), przy czym rozwiązania proszę przesyłać na:
+Zasady są opisane [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW), przy czym rozwiązania proszę przesyłać na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
