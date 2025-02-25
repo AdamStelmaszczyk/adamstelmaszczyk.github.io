@@ -18,19 +18,19 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 ## Psyho's tips
 
-0.  Everyone is unique and has different background. Each one of us struggles with different subjects. Not every piece of advice is going to be applicable for you, but I'll try making all tips as general as possible and mention if something is situation specific. 
+1.  Everyone is unique and has different background. Each one of us struggles with different subjects. Not every piece of advice is going to be applicable for you, but I'll try making all tips as general as possible and mention if something is situation specific. 
 
-1.  In a week-long contest there's enough time to do **all** of the research during the contest. No matter how inexperienced you are, if you put a lot of effort into a single contest, you have a chance of winning. This is in contrast to CP where you have to train for years.   
+2.  In a week-long contest there's enough time to do **all** of the research during the contest. No matter how inexperienced you are, if you put a lot of effort into a single contest, you have a chance of winning. This is in contrast to CP where you have to train for years.   
 
-2.  You never need any advanced math. There is always alternative of writing simulation code. In ~200 contests I've done, I can recall a single instance someone performed better due to math knowledge. Exception: Bayes' theorem. For reference: I don't know calculus 😅   
+3.  You never need any advanced math. There is always alternative of writing simulation code. In ~200 contests I've done, I can recall a single instance someone performed better due to math knowledge. Exception: Bayes' theorem. For reference: I don't know calculus 😅   
 
-3.  In HC there are only two common techniques that are worth knowing: Beam Search & SA. Rarely, it's useful to have decent experience with Graph Theory, Dynamic Programming, Linear Programming & Flow Problems.   
+4.  In HC there are only two common techniques that are worth knowing: Beam Search & SA. Rarely, it's useful to have decent experience with Graph Theory, Dynamic Programming, Linear Programming & Flow Problems.   
 
-4.  Touch typing is extremely important. If you can't, that should be your #1 priority. It takes roughly 10-30h for most. Touch typing gives you an ability to think about other things while coding. Reduces number of bugs, smooths out prototyping, etc.   
+5.  Touch typing is extremely important. If you can't, that should be your #1 priority. It takes roughly 10-30h for most. Touch typing gives you an ability to think about other things while coding. Reduces number of bugs, smooths out prototyping, etc.   
 
-5.  HC vs BC, which ones are better? Other than different set of standard techniques, the main difference is that HC give you fast & precise feedback, while BC are generally more fun. You'll learn at much faster pace in HC.   
+6.  HC vs BC, which ones are better? Other than different set of standard techniques, the main difference is that HC give you fast & precise feedback, while BC are generally more fun. You'll learn at much faster pace in HC.   
 
-6.  The best sites for contests:  
+7.  The best sites for contests:  
 
     HC: Topcoder (MM, Marathon Match), AtCoder (AHC, AtCoder Heuristic Contest)  
     BC: CodinGame
@@ -279,7 +279,7 @@ I wished I had all of them a bit cleaned up and consolidated into one page, for 
 
 77. In order to be able to perform viable local tests, you need a wide spectrum of different approaches that's representative of bots on the leaderboard. Forget about decent evaluation of your solution.
 
-78. Remember tip 20? Contests are feedback loops. When you can't effectively evaluate your solution, it's hard to quickly develop your intuition. In BC you get a lot of noisy feedback and you have to make very wild guesses about the next steps.
+78. Remember tip 21? Contests are feedback loops. When you can't effectively evaluate your solution, it's hard to quickly develop your intuition. In BC you get a lot of noisy feedback and you have to make very wild guesses about the next steps.
 
 79. BC require much bigger time investment than heuristic contests.
 
