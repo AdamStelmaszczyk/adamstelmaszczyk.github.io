@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /about
+permalink: /about/
 ---
 
 <img src="{{site.url}}/images/adam.jpg" alt="My Profile Picture" width="200">
