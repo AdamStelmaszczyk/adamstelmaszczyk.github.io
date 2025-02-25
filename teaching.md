@@ -10,4 +10,4 @@ Harmonogram ćwiczeń oraz zasady tak jak [tutaj](https://staff.elka.pw.edu.pl/~
 
 adam.stelmaszczyk (at) pw.edu.pl
 
-z prefiksem `[WSI_CW] ` w tytule maila.
+z prefiksem `[WSI_CW]` w tytule maila.
