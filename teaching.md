@@ -16,8 +16,6 @@ adam.stelmaszczyk (at) pw.edu.pl
 
 z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7).
 
----
-
 ### [AISDI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=103D-INxxx-ISP-AISDI) (Algorytmy i struktury danych)
 
 Harmonogram:
@@ -33,7 +31,5 @@ Nr| Data  | Temat |
 7 | 09.06 | Termin zapasowy |
 
 Zasady są opisane [tu](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
-
----
 
 ### [APRO2](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=103A-CBxxx-ISP-APRO2) (Algorytmy i programowanie 2)
