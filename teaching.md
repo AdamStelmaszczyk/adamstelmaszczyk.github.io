@@ -14,7 +14,7 @@ Zasady są opisane [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](ht
 
 adam.stelmaszczyk (at) pw.edu.pl
 
-z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę nie pakować plików, tylko załączyć `raport.pdf` i `kod.py`.
+z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę nie pakować plików, tylko załączyć kod i `raport.pdf`.
 
 ### [AISDI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=103D-INxxx-ISP-AISDI) (Algorytmy i struktury danych)
 
