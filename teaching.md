@@ -30,6 +30,6 @@ Nr| Data  | Temat |
 6 | 02.06 | Oddanie zadania 5 "Turing" |
 7 | 09.06 | Termin zapasowy |
 
-Zasady są opisane [tu](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
+Zasady i zadania są opisane [tu](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
 
 ### [APRO2](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=103A-CBxxx-ISP-APRO2) (Algorytmy i programowanie 2)
