@@ -6,16 +6,6 @@ permalink: /teaching/
 
 ## Semestr 25Z
 
-### [WSI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=103A-INxxx-ISP-WSI) (Wprowadzenie do sztucznej inteligencji)
-
-Harmonogram znajduje się [tutaj](https://staff.elka.pw.edu.pl/~knalecz).
-
-Zasady są opisane [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW), przy czym rozwiązania proszę przesyłać na:
-
-adam.stelmaszczyk (at) pw.edu.pl
-
-z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę nie pakować plików, tylko załączyć kod oraz `raport.pdf`.
-
 ### [AISDI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=103D-INxxx-ISP-AISDI) (Algorytmy i struktury danych)
 
 Harmonogram:
@@ -31,3 +21,13 @@ Nr| Data  | Temat |
 7 | 09.06 | Termin zapasowy |
 
 Zasady i zadania są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
+
+### [WSI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=103A-INxxx-ISP-WSI) (Wprowadzenie do sztucznej inteligencji)
+
+Harmonogram znajduje się [tutaj](https://staff.elka.pw.edu.pl/~knalecz).
+
+Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW), przy czym rozwiązania proszę przesyłać na:
+
+adam.stelmaszczyk (at) pw.edu.pl
+
+z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę nie pakować plików, tylko załączyć kod oraz `raport.pdf`.
