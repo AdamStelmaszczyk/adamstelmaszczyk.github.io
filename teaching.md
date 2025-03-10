@@ -23,7 +23,7 @@ Harmonogram:
 Nr| Data  | Temat |
 --|-------|-------|
 1 | 10.03 | Ćwiczenie wstępne i rozdanie zadania 1 "Sortowanie" |
-2 | 17.03 | Oddanie zadania 1 "Sortowanie" i rozdanie zadania 2 "Kopce" |
+2 | 24.03 | Oddanie zadania 1 "Sortowanie" i rozdanie zadania 2 "Kopce" |
 3 | 07.04 | Oddanie zadania 2 "Kopce" i rozdanie zadania 3 "Drzewa" |
 4 | 28.04 | Oddanie zadania 3 "Drzewa" i rozdanie zadania 4 "Grafy" |
 5 | 12.05 | Oddanie zadania 4 "Grafy" i rozdanie zadania 5 "Turing" |
