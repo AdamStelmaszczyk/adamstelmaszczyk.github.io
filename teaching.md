@@ -26,8 +26,10 @@ Zasady i zadania są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AIS
 
 Harmonogram znajduje się [tutaj](https://staff.elka.pw.edu.pl/~knalecz).
 
-Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW). Rozwiązania oddajemy w trakcie ćwiczeń. Przed, proszę wysłać pliki na:
+Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW). Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać pliki (w celach archiwizacyjnych i do mojego przeglądu) na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
 z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`). Bez pakowania.
+
+Zadania w terminie oddaje najwięcej studentów, dlatego zachęcam do oddawania/konsultowania na ćwiczeniach tydzień wcześniej. Mamy więcej czasu, a w przypadku uwag, można poprawić i oddać jeszcze raz, w terminie. Natomiast każdy tydzień po terminie to -1 punkt.
