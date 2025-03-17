@@ -30,4 +30,4 @@ Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://st
 
 adam.stelmaszczyk (at) pw.edu.pl
 
-z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę nie pakować plików, tylko załączyć kod oraz `raport.pdf`.
+z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`).
