@@ -26,7 +26,7 @@ Zasady i zadania są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AIS
 
 Harmonogram znajduje się [tutaj](https://staff.elka.pw.edu.pl/~knalecz).
 
-Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW). Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać pliki (do mojego przeglądu i archiwizacji) na:
+Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW). Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać pliki (do przeglądu i archiwizacji) na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
