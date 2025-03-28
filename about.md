@@ -18,7 +18,7 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
   - Neural networks
 - Game theory
 
-## Publications
+## Publications ([Scholar](https://scholar.google.com/citations?hl=en&user=FWFQ-XIAAAAJ&view_op=list_works&sortby=pubdate))
 
 2017, [Learning to Run challenge solutions: Adapting reinforcement learning methods for neuromusculoskeletal environments](https://github.com/AdamStelmaszczyk/learning2run)
 
