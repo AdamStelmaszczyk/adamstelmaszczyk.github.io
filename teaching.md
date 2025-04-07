@@ -22,6 +22,8 @@ Nr| Data  | Temat |
 
 Zasady i zadania są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
 
+Obydwie osoby z pary powinny być obecne przy oddawaniu, każdy dostaje osobną ocenę. W przypadku nieobeności, nieobecna osoba może oddać później, z uwzględnieniem -20% maksymalnej oceny za każdy tydzień spoźnienia dla tej osoby.
+
 ### [WSI](https://usosweb.usos.pw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=103A-INxxx-ISP-WSI) (Wprowadzenie do sztucznej inteligencji)
 
 Harmonogram znajduje się [tutaj](https://staff.elka.pw.edu.pl/~knalecz).
