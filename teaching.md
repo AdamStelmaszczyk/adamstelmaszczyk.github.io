@@ -15,12 +15,14 @@ Nr| Data  | Temat |
 1 | 10.03 | Ćwiczenie wstępne i rozdanie zadania 1 "Sortowanie" |
 2 | 24.03 | Oddanie zadania 1 "Sortowanie" i rozdanie zadania 2 "Kopce" |
 3 | 07.04 | Oddanie zadania 2 "Kopce" i rozdanie zadania 3 "Drzewa" |
-4 | 28.04 | Oddanie zadania 3 "Drzewa" i rozdanie zadania 4 ["Grafy"](/teaching/grafy) |
+4 | 28.04 | Oddanie zadania 3 "Drzewa" i rozdanie zadania 4 "Grafy" |
 5 | 12.05 | Oddanie zadania 4 "Grafy" i rozdanie zadania 5 "Turing" |
 6 | 02.06 | Oddanie zadania 5 "Turing" |
 7 | 09.06 | Termin zapasowy |
 
-Zasady i zadania 1-3 są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
+Zasady i zadania 1-3 są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html). 
+
+Zadanie 4 jest [tutaj](/teaching/grafy).
 
 Obydwie osoby z pary powinny być obecne przy oddawaniu, każdy dostaje osobną ocenę. W przypadku nieobecności, nieobecna osoba może oddać później, z uwzględnieniem -20% maksymalnej oceny za każdy tydzień spoźnienia dla tej osoby.
 
