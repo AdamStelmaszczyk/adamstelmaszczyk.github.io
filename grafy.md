@@ -1,5 +1,8 @@
 ---
-permalink: /teaching/grafy
+layout: page
+title: Grafy
+permalink: /teaching/
+hidden: true
 ---
 
 ## Algorytmy i struktury danych – zadanie z grafów
