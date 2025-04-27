@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grafy
-permalink: /teaching/
+permalink: /teaching/grafy
 hidden: true
 ---
 
