@@ -50,4 +50,4 @@ Rezultatem powinny być:
 
 - 3 pliki tekstowe z przykładowymi planszami (innymi niż plansza z treści zadania) o różnych wymiarach;
 
-- trzy zrzuty ekranu z wynikami działania programu dla przykładowych plansz.
+- 3 zrzuty ekranu z wynikami działania programu dla przykładowych plansz.
