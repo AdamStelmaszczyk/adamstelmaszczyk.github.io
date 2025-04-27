@@ -32,7 +32,7 @@ Harmonogram znajduje się [tutaj](https://staff.elka.pw.edu.pl/~knalecz).
 
 Zasady są [tutaj](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tutaj](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW). Proszę się do nich stosować.
 
-Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać pliki (do przeglądu i archiwizacji) na:
+Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać pliki na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
