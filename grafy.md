@@ -39,7 +39,8 @@ J11
 
 Koszt: 3
 ```
-Uwaga: Można założyć poprawność wejściowego pliku.
+
+Można założyć poprawność wejściowego pliku.
 
 ### Wyniki
 
