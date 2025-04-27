@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Grafy
 permalink: /teaching/grafy
-hidden: true
 ---
 
 ## Algorytmy i struktury danych – zadanie z grafów
