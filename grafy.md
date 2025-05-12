@@ -5,7 +5,7 @@ permalink: /teaching/grafy
 hidden: true
 ---
 
-## Algorytmy i struktury danych – zadanie z grafów
+## Algorytmy i struktury danych
 
 ### Problem
 
@@ -46,8 +46,8 @@ Można założyć poprawność wejściowego pliku.
 
 Rezultatem powinny być:
 
-- kod źródłowy programu;
+* kod źródłowy programu;
 
-- 3 pliki tekstowe z przykładowymi planszami (innymi niż plansza z treści zadania) o różnych wymiarach;
+* 3 pliki tekstowe z przykładowymi planszami (innymi niż plansza z treści zadania) o różnych wymiarach;
 
-- 3 zrzuty ekranu z wynikami działania programu dla przykładowych plansz.
+* 3 zrzuty ekranu z wynikami działania programu dla przykładowych plansz.
