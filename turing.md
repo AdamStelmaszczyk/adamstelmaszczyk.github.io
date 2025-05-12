@@ -5,7 +5,7 @@ permalink: /teaching/turing
 hidden: true
 ---
 
-## Algorytmy i struktury danych – zadanie z Turinga
+## Algorytmy i struktury danych
 
 ### Maszyna Turinga
 
