@@ -20,9 +20,9 @@ Nr| Data  | Temat |
 6 | 02.06 | Oddanie zadania 5 "Turing" |
 7 | 09.06 | Termin zapasowy |
 
-Zasady i zadania 1-3 są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html). 
+Zasady i zadania 1-4 są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html). 
 
-Zadanie 4 jest [tutaj](/teaching/grafy).
+Zadanie 5 jest [tutaj](/teaching/turing).
 
 Obydwie osoby z pary powinny być obecne przy oddawaniu, każdy dostaje osobną ocenę. W przypadku nieobecności, nieobecna osoba może oddać później, z uwzględnieniem -20% maksymalnej oceny za każdy tydzień spoźnienia dla tej osoby.
 
