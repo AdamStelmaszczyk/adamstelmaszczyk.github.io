@@ -14,8 +14,8 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
   - Evolutionary algorithms
   - Search algorithms ([Game Tree Search Algorithms library](https://github.com/AdamStelmaszczyk/gtsa))
 - Machine learning
-  - Reinforcement learning
   - Neural networks
+  - Reinforcement learning
 
 ## Publications ([Scholar](https://scholar.google.com/citations?hl=en&user=FWFQ-XIAAAAJ&view_op=list_works&sortby=pubdate))
 
