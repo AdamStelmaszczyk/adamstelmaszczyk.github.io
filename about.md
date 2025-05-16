@@ -16,7 +16,6 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 - Machine learning
   - Reinforcement learning
   - Neural networks
-- Game theory
 
 ## Publications ([Scholar](https://scholar.google.com/citations?hl=en&user=FWFQ-XIAAAAJ&view_op=list_works&sortby=pubdate))
 
