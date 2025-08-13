@@ -19,6 +19,8 @@ I'm a research and teaching assistant at Warsaw University of Technology, Facult
 
 ## Publications ([Scholar](https://scholar.google.com/citations?hl=en&user=FWFQ-XIAAAAJ&view_op=list_works&sortby=pubdate))
 
+2025, [Covariance Matrix Adaptation Evolution Strategy without a matrix]({{site.url}}/papers/mf-cma-es-preprint.pdf)
+
 2017, [Learning to Run challenge solutions: Adapting reinforcement learning methods for neuromusculoskeletal environments](https://github.com/AdamStelmaszczyk/learning2run)
 
 2014, Master's thesis, [DE/mid – new variant of differential evolution algorithm using the midpoint of the population](https://github.com/AdamStelmaszczyk/masters-thesis)
