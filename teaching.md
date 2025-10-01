@@ -24,8 +24,6 @@ adam.stelmaszczyk (at) pw.edu.pl
 
 z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`). Bez pakowania. Do raportu polecam LaTeX'a, np. [Overleaf](https://overleaf.com) jest wygodny.
 
-Każdy tydzień po terminie to -1 punkt do oceny.
-
 <!-- 
 
 ### AISDI (Algorytmy i struktury danych)
