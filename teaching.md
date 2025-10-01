@@ -14,7 +14,18 @@ Osoby zainteresowane tematem "Opóźnianie aktualizacji macierzy kowariancji w C
 
 ### WSI (Wprowadzenie do sztucznej inteligencji)
 
-Harmonogram pojawi się wkrótce.
+Harmonogram:
+
+Nr| Data  | Temat | Punkty
+--|-------|-------|--------|
+1 | 10.10 | Algorytmy ewolucyjne i genetyczne | 7
+2 | 24.10 | Dwuosobowe gry deterministyczne | 7
+3 | 07.11 | Regresja i klasyfikacja | 7
+4 | 28.11 | Zagadnienie przeszukiwania i podstawowe podejścia do niego | 7
+5 | 12.12 | Sztuczne sieci neuronowe (realizowane w zespołach 2 osobowych) | 8
+6 | 09.01 | Uczenie się ze wzmocnieniem | 7
+7 | 22.01 | Modele bayesowskie | 7
+8 | 29.01 | Ostatni termin |
 
 Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
@@ -23,6 +34,8 @@ Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać 
 adam.stelmaszczyk (at) pw.edu.pl
 
 z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`). Bez pakowania. Do raportu polecam LaTeX'a, np. [Overleaf](https://overleaf.com) jest wygodny.
+
+Terminem oddania ćwiczenia `n` jest spotkanie numer `n+1`. Każdy tydzień spóźnienia kosztuje 20% maksymalnej liczby punktów za dane ćwiczenie.
 
 <!-- 
 
