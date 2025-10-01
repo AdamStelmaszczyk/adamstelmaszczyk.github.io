@@ -16,7 +16,7 @@ Osoby zainteresowane tematem "Opóźnianie aktualizacji macierzy kowariancji w C
 
 Harmonogram pojawi się wkrótce.
 
-Zasady są [tutaj](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tutaj](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
+Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
 Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać pliki na:
 
