@@ -24,8 +24,8 @@ Nr| Data  | Temat | Punkty
 4 | 28.11 | Zagadnienie przeszukiwania i podstawowe podejścia do niego | 7
 5 | 12.12 | Sztuczne sieci neuronowe (realizowane w zespołach 2 osobowych) | 8
 6 | 09.01 | Uczenie się ze wzmocnieniem | 7
-7 | 22.01 | Modele bayesowskie | 7
-8 | 29.01 | Ostatni termin |
+7 | 23.01 | Modele bayesowskie | 7
+8 | 30.01 | Ostatni termin |
 
 Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
