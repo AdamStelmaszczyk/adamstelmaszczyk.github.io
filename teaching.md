@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## Praca inżynierska/magisterska
+## Praca inżynierska
 
 Osoby zainteresowane tematem "Opóźnianie aktualizacji macierzy kowariancji w CMA-ES" zapraszam do kontaktu: adam.stelmaszczyk (at) pw.edu.pl
 
