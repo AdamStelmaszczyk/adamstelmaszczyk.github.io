@@ -32,8 +32,8 @@ Zaimplementowany algorytm ma następnie posłużyć do optymalizacji klasycznego
 1. Implementacja algorytmu genetycznego.  
 2. Zastosowanie algorytmu do rozwiązania problemu komiwojażera. Eksperymentalne dobranie zestawu parametrów, dla którego algorytm daje dobry wynik.  
 3. Zbadanie, w jaki sposób następujące zmiany wpłyną na rezultaty osiągane przez algorytm:  
-   1. Zwiększenie prawdopodobieństwa mutacji.  
-   2. Zmiana sposobu selekcji na turniejową.  
+   a. Zwiększenie prawdopodobieństwa mutacji.  
+   b. Zmiana sposobu selekcji na turniejową.  
 
 ## Uwagi
 
