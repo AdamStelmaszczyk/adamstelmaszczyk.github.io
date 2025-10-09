@@ -31,7 +31,7 @@ Nr| Data  | Temat | Punkty
 
 Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
-Rozwiązania oddajemy w trakcie ćwiczeń. Przed ćwiczeniami, proszę wysłać pliki na:
+Przed oddaniem na ćwiczeniach, pliki trzeba wysłać na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
