@@ -7,7 +7,7 @@ hidden: true
 
 # Zadanie
 
-Cel zadania polega na implementacji algorytmu genetycznego z mutacją, selekcją
+Zadanie polega na implementacji algorytmu genetycznego z mutacją, selekcją
 ruletkową, krzyżowaniem jednopunktowym oraz sukcesją generacyjną.
 
 Zaimplementowany algorytm ma następnie posłużyć do optymalizacji klasycznego, symetrycznego [problemu komiwojażera](https://pl.wikipedia.org/wiki/Problem_komiwoja%C5%BCera).
@@ -39,4 +39,4 @@ Zaimplementowany algorytm ma następnie posłużyć do optymalizacji klasycznego
 
 - Ze względu na losowy charakter algorytmu, konieczne jest porównanie uzyskiwanych rezultatów jego działania dla wielu uruchomień i uśrednienie wyników.  
 - Funkcję przystosowania możemy zdefiniować jako odwrotność łącznej długości trasy dla danej permutacji miast odwiedzanych przez komiwojażera.  
-- Interesującym, choć **nieobowiązkowym** dodatkiem byłoby zastosowanie do kodowania osobników kodu Graya. Szczegóły omówione są w podrozdziale 4.2 książki Pawła Wawrzyńskiego "Podstawy sztucznej inteligencji" (dostępna np. w bibliotece PW online).
+- Interesującym, choć **nieobowiązkowym** dodatkiem jest zastosowanie do kodowania osobników kodu Graya. Szczegóły omówione są w podrozdziale 4.2 książki Pawła Wawrzyńskiego "Podstawy sztucznej inteligencji" (dostępna np. w bibliotece PW online).
