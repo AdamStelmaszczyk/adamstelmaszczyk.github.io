@@ -16,7 +16,7 @@ Pracę można też napisać po angielsku, wtedy krótsza droga do publikacji (dl
 
 ### WSI (Wprowadzenie do sztucznej inteligencji)
 
-Harmonogram:
+Harmonogram spotkań:
 
 Nr| Data  | Temat | Punkty
 --|-------|-------|--------|
