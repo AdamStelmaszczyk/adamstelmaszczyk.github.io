@@ -18,7 +18,7 @@ Pracę można też napisać po angielsku, wtedy krótsza droga do publikacji (dl
 
 Harmonogram spotkań:
 
-Nr| Data  | Temat | Punkty
+Nr| Data  | Ćwiczenie | Punkty
 --|-------|-------|--------|
 1 | 10.10 | [Algorytmy ewolucyjne i genetyczne](/teaching/wsi/cw1) | 7
 2 | 24.10 | Dwuosobowe gry deterministyczne | 7
