@@ -21,7 +21,7 @@ Harmonogram spotkań:
 Nr| Data  | Ćwiczenie | Punkty
 --|-------|-------|--------|
 1 | 10.10 | [Algorytmy ewolucyjne i genetyczne](/teaching/wsi/cw1) | 7
-2 | 24.10 | Dwuosobowe gry deterministyczne | 7
+2 | 24.10 | [Dwuosobowe gry deterministyczne](/teaching/wsi/cw2) | 7
 3 | 07.11 | Regresja i klasyfikacja | 7
 4 | 28.11 | Zagadnienie przeszukiwania i podstawowe podejścia do niego | 7
 5 | 12.12 | Sztuczne sieci neuronowe (realizowane w zespołach 2 osobowych) | 8
