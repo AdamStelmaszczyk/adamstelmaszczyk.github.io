@@ -24,7 +24,7 @@ Nr| Data  | Ćwiczenie | Punkty
 2 | 24.10 | [Dwuosobowe gry deterministyczne](/teaching/wsi/cw2) | 7
 3 | 07.11 | Regresja i klasyfikacja | 7
 4 | 28.11 | Przeszukiwanie przestrzeni | 7
-5 | 12.12 | Sztuczne sieci neuronowe (realizowane w zespołach 2 osobowych) | 8
+5 | 12.12 | Sztuczne sieci neuronowe (realizowane w parach) | 8
 6 | 09.01 | Uczenie się ze wzmocnieniem | 7
 7 | 23.01 | Modele bayesowskie | 7
 8 | 30.01 | Ostatni termin |
