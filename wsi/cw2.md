@@ -26,5 +26,5 @@ Posiada ona prosty interfejs tekstowy, gracza "ludzkiego" i losowego, jak równi
     wpływu głębokości przeszukiwania drzewa gry na jakość wyników
     uzyskiwanych przez graczy.
 
-Punkty 2 i 3 proszę wykonać dla standardowego rozmiaru planszy (3x3),
+Kroki 2 i 3 proszę wykonać dla standardowego rozmiaru planszy (3x3),
 jak również dla jednego wybranego większego rozmiaru.
