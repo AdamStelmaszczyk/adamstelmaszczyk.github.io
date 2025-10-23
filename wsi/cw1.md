@@ -8,7 +8,7 @@ hidden: true
 # Zadanie
 
 Zadanie polega na implementacji algorytmu genetycznego z mutacją, selekcją
-ruletkową, krzyżowaniem jednopunktowym z naprawą oraz sukcesją generacyjną.
+ruletkową, krzyżowaniem jednopunktowym (ew. z naprawą) oraz sukcesją generacyjną.
 
 Zaimplementowany algorytm ma następnie posłużyć do optymalizacji klasycznego, symetrycznego [problemu komiwojażera](https://pl.wikipedia.org/wiki/Problem_komiwoja%C5%BCera).
 
