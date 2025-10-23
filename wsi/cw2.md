@@ -8,11 +8,9 @@ hidden: true
 # Zadanie
 
 Zadanie polega na implementacji algorytmu min-max z przycinaniem alfa-beta 
-i zastosowaniu go do gry w kółko i krzyżyk (tic-tac-toe). 
-Do rozwiązania zadania można wykorzystać gotową implementację gry w kółko
-i krzyżyk: [ttt.zip](/teaching/wsi/ttt.zip). 
-Gra ta posiada prosty interfejs tekstowy, zaimplementowanego gracza "ludzkiego" 
-i losowego, jak również zaślepkę dla gracza wykorzystującego algorytm min-max.
+i zastosowaniu go do gry w kółko i krzyżyk. 
+Do rozwiązania zadania można wykorzystać gotową implementację gry: [ttt.zip](/teaching/wsi/ttt.zip). 
+Posiada ona prosty interfejs tekstowy, gracza "ludzkiego" i losowego, jak również zaślepkę dla gracza wykorzystującego min-max.
 
 ## Kroki do wykonania
 
