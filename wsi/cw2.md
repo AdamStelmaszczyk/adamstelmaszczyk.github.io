@@ -7,24 +7,26 @@ hidden: true
 
 # Zadanie
 
-Zadanie polega na implementacji algorytmu min-max z przycinaniem alfa-beta 
+Zadanie polega na implementacji algorytmu Minimax z przycinaniem alfa-beta 
 i zastosowaniu go do gry w kółko i krzyżyk. 
 Do rozwiązania zadania można wykorzystać gotową implementację gry: [ttt.zip](/wsi/ttt.zip). 
-Posiada ona prosty interfejs tekstowy, gracza "ludzkiego" i losowego, jak również zaślepkę dla gracza wykorzystującego min-max.
+Posiada ona prosty interfejs tekstowy, gracza "ludzkiego" i losowego, jak również zaślepkę dla gracza Minimax.
 
 ## Kroki do wykonania
 
 1.  Uruchomienie gry dla gracza losowego i ludzkiego (w celu zapoznania
     się ze sposobem działania gry).
-2.  Implementacja algorytmu min-max z przycinaniem alfa-beta. Ocena
-    gracza min-max (porównanie jego zachowania w starciu z graczem
+2.  Implementacja algorytmu Minimax z przycinaniem alfa-beta. Ocena
+    gracza Minimax (porównanie jego zachowania w starciu z graczem
     ludzkim w stosunku do gracza losowego).
 3.  Rozszerzenie gry o możliwość konfiguracji różnych poziomów
-    głębokości drzewa przeszukiwań dla dwóch graczy min-max.
-    Uruchomienie gry dla dwóch graczy min-max o różnej głębokości drzewa
+    głębokości drzewa przeszukiwań dla dwóch graczy Minimax.
+    Uruchomienie gry dla dwóch graczy Minimax o różnej głębokości drzewa
     przeszukiwań (dla kilku wartości tego parametru) i skomentowanie
     wpływu głębokości przeszukiwania drzewa gry na jakość wyników
     uzyskiwanych przez graczy.
 
 Kroki 2 i 3 proszę wykonać dla standardowego rozmiaru planszy (3x3),
 jak również dla jednego wybranego większego rozmiaru.
+
+Można używać Negamax zamiast Minimax.
