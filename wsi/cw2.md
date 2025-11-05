@@ -29,4 +29,4 @@ Posiada ona prosty interfejs tekstowy, gracza "ludzkiego" i losowego, jak równi
 Kroki 2 i 3 proszę wykonać dla standardowego rozmiaru planszy (3x3),
 jak również dla jednego wybranego większego rozmiaru.
 
-Można używać Negamax zamiast Minimax.
+Polecam użyć Negamax zamiast Minimax, natomiast nie jest to obowiązkowe.
