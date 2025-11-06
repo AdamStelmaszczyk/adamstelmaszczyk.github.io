@@ -16,5 +16,5 @@ Zadanie polega na implementacji drzewa decyzyjnego tworzonego algorytmem **ID3**
 
 ## Uwagi
 
-- Należy pamiętać o podziale danych na zbiory **trenujący**, **walidacyjny** i **testowy**.  
-- Zaimplementowana metoda powinna być **uniwersalna** — nie należy „zaszywać” na sztywno w kodzie np. nazwy pliku ze zbiorem danych czy wartości atrybutów.
+- Należy pamiętać o podziale danych na zbiór **trenujący**, **walidacyjny** i **testowy**.  
+- Zaimplementowana metoda powinna być **uniwersalna** - nie należy "zaszywać" na sztywno w kodzie np. nazwy pliku ze zbiorem danych czy wartości atrybutów.
