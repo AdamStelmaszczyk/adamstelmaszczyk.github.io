@@ -11,7 +11,7 @@ Zadanie polega na implementacji drzewa decyzyjnego tworzonego algorytmem **ID3**
 
 ## Kroki do wykonania
 
-1. Zaimplementuj drzewo decyzyjne ID3 (z ograniczeniem jego maksymalnej głębokości).  
+1. Zaimplementuj drzewo decyzyjne ID3 z ograniczeniem jego maksymalnej głębokości.  
 2. Zbadaj skuteczność działania klasyfikatora dla zbioru danych [Tic-Tac-Toe Endgame](https://archive.ics.uci.edu/dataset/101/tic+tac+toe+endgame), obliczając **dokładność** i **macierz pomyłek**.
 
 ## Uwagi
