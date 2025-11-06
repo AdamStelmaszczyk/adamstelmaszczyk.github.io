@@ -26,7 +26,9 @@ Posiada ona prosty interfejs tekstowy, gracza "ludzkiego" i losowego, jak równi
     wpływu głębokości przeszukiwania drzewa gry na jakość wyników
     uzyskiwanych przez graczy.
 
+## Uwagi
+
 Kroki 2 i 3 proszę wykonać dla standardowego rozmiaru planszy (3x3),
 jak również dla jednego wybranego większego rozmiaru.
 
-Polecam użyć Negamax zamiast Minimax, natomiast nie jest to obowiązkowe.
+Polecam użyć Negamax zamiast Minimax, ale nie jest to obowiązkowe.
