@@ -6,7 +6,7 @@ permalink: /teaching/
 
 ## Praca inżynierska
 
-Osoby zainteresowane tematem "Opóźnianie rozkładu macierzy kowariancji w CMA-ES" zapraszam do kontaktu: adam.stelmaszczyk (at) pw.edu.pl
+Osoby zainteresowane tematem "Opóźnianie rozkładu macierzy kowariancji w [CMA-ES](https://arxiv.org/pdf/1604.00772)" zapraszam do kontaktu: adam.stelmaszczyk (at) pw.edu.pl
 
 > W oryginalnym CMA-ES macierz C nie jest rozkładana w każdej generacji — prowadziłoby to do złożoności czasowej rzędu O(n³). Zamiast tego rozkład odbywa się co około 10n generacji, co obniża złożoność do O(n²). Odbywa się to jednak kosztem dokładności, ponieważ operujemy przybliżeniem macierzy C. Celem pracy jest analiza jakości tego przybliżenia. Jak bardzo możemy opóźnić rozkład? Czy oryginalny sposób opóźniania jest uzasadniony?
 
