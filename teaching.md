@@ -12,7 +12,7 @@ Osoby zainteresowane tematem "Opóźnianie rozkładu macierzy kowariancji w [CMA
 
 Pracę można też napisać po angielsku, wtedy krótsza droga do publikacji (dla chętnych).
 
-Dobrym opis algorytmu CMA-ES po polsku znajduje się [tutaj](https://repo.pw.edu.pl/docstore/download/WUTae355b6f48324cb7a362cdd54e99ceaa/MBobowski_pdm.pdf).
+Dobry opis algorytmu CMA-ES po polsku znajduje się [tutaj](https://repo.pw.edu.pl/docstore/download/WUTae355b6f48324cb7a362cdd54e99ceaa/MBobowski_pdm.pdf).
 
 ### WSI (Wprowadzenie do sztucznej inteligencji)
 
