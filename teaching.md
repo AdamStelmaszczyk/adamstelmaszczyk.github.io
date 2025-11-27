@@ -23,7 +23,7 @@ Nr| Data  | Ćwiczenie | Punkty
 1 | 10.10 | [Algorytmy ewolucyjne i genetyczne](/teaching/wsi/cw1) | 7
 2 | 24.10 | [Dwuosobowe gry deterministyczne](/teaching/wsi/cw2) | 7
 3 | 07.11 | [Regresja i klasyfikacja](/teaching/wsi/cw3) | 7
-4 | 28.11 | Przeszukiwanie przestrzeni | 7
+4 | 28.11 | [Przeszukiwanie przestrzeni](/teaching/wsi/cw4) | 7
 5 | 12.12 | Sztuczne sieci neuronowe (realizowane w parach) | 8
 6 | 09.01 | Uczenie ze wzmocnieniem | 7
 7 | 23.01 | Modele bayesowskie | 7
