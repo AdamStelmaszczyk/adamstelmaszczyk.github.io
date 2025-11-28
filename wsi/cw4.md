@@ -13,7 +13,7 @@ Metodę należy zastosować dla następujących funkcji:
 - f(x) = x_1^2 + x_2^2
 - funkcja [Matyasa](https://www.sfu.ca/~ssurjano/matya.html) (dla 2 wymiarów)
 
-gdzie xi należy do przedziału [-10, 10], dla każdego i = 1, 2.
+gdzie x_i należy do przedziału [-10, 10], dla każdego i = 1, 2.
 
 ## Kroki do wykonania
 
