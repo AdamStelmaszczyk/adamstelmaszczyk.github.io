@@ -28,7 +28,5 @@ Posiada ona prosty interfejs tekstowy, gracza "ludzkiego" i losowego, jak równi
 
 ## Uwagi
 
-- Kroki 2 i 3 proszę wykonać dla standardowego rozmiaru planszy (3x3),
-jak również dla jednego wybranego większego rozmiaru.
-
+- Kroki 2 i 3 proszę wykonać dla standardowego rozmiaru planszy (3x3) oraz 4x4.
 - Polecam użyć Negamax zamiast Minimax, ale nie jest to obowiązkowe.
