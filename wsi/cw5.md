@@ -1,3 +1,10 @@
+---
+layout: page
+title: Sztuczne sieci neuronowe
+permalink: /teaching/wsi/cw5
+hidden: true
+---
+
 # Zadanie
 
 Zadanie polega na implementacji perceptronu dwuwarstwowego oraz nauczeniu go reprezentowania zadanej funkcji f(x), opisującej rozkład Laplace'a. Funkcja ta jest dana wzorem:
