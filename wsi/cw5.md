@@ -13,8 +13,8 @@ Zadanie polega na implementacji perceptronu dwuwarstwowego oraz nauczeniu go rep
   <img alt="Wzór Laplace'a" title="f(x) = \\frac{1}{2b} e^{-\\frac{|x-\\mu|}{b}}" src="https://latex.codecogs.com/svg.latex?f(x)=\frac{1}{2b}e^{-\frac{|x-\mu|}{b}}" />
 </p>
 
-- Zakres x: [-8, 8]
-- Wartości mu i b: mu = 0, b = 1
+- Zakres x: [-8, 8].
+- Wartości mu i b: mu = 0, b = 1.
 
 Zadanie realizowane jest w parach, dobieracie się Państwo sami.
 
