@@ -16,7 +16,7 @@ Zadanie polega na implementacji perceptronu dwuwarstwowego oraz nauczeniu go rep
 - Zakres x: [-8, 8].
 - Wartości mu i b: mu = 0, b = 1.
 
-Zadanie realizowane jest w parach, dobieracie się Państwo sami.
+Zadanie realizowane jest w parach, dobieracie się Państwo sami. Rozwiązanie przesyła jedna osoba, w raporcie podpisuje się para, odbiór też musi być w parach.
 
 ## Kroki do wykonania
 
