@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grafy
-permalink: /teaching/grafy
+permalink: /teaching/aisdi/grafy
 hidden: true
 ---
 
