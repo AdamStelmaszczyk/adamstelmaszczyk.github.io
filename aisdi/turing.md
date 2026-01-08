@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Maszyna Turinga
-permalink: /aisdi/turing
+permalink: /teaching/aisdi/turing
 hidden: true
 ---
 
