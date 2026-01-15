@@ -17,7 +17,7 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 5 | 12.12 | [Przeszukiwanie przestrzeni](/teaching/wsi/cw4) | 7
 6 | 16.01 | [Sztuczne sieci neuronowe (realizowane w parach)](/teaching/wsi/cw5) | 8
 7 | 23.01 | [Uczenie ze wzmocnieniem](/teaching/wsi/cw6) | 7
-8 | 30.01 | Modele bayesowskie | 7
+8 | 30.01 | [Modele bayesowskie](/teaching/wsi/cw7) | 7
 
 Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
