@@ -14,7 +14,7 @@ Zaimplementowany algorytm ma następnie posłużyć do optymalizacji symetryczne
 
 ## Dane
 
-16 miast z Odysei: [`ulysaes16.tsp`](https://github.com/mastqe/tsplib/blob/master/ulysses16.tsp).
+16 miast z Odysei: [`ulysses16.tsp`](https://github.com/mastqe/tsplib/blob/master/ulysses16.tsp).
 
 ## Kroki do wykonania
 
