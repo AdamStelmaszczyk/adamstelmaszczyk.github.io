@@ -21,7 +21,7 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 -->
 Podstawowe zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
-Przed oddaniem na spotkaniu, pliki trzeba wysłać dnia poprzedzającego na:
+Dzień przed oddaniem na spotkaniu, pliki trzeba wysłać na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
