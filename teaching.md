@@ -5,7 +5,7 @@ permalink: /teaching/
 ---
 
 ### WSI (Wprowadzenie do sztucznej inteligencji)
-
+<!--
 Harmonogram spotkań:
 
 Nr| Data  | Oddanie ćwiczenia | Punkty
@@ -18,16 +18,16 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 6 | 16.01 | [Sztuczne sieci neuronowe (realizowane w parach)](/teaching/wsi/cw5) | 8
 7 | 23.01 | [Uczenie ze wzmocnieniem](/teaching/wsi/cw6) | 7
 8 | 30.01 | [Modele bayesowskie](/teaching/wsi/cw7) | 7
-
-Zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
+-->
+Podstawowe zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
 Przed oddaniem na spotkaniu, pliki trzeba wysłać na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
-z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`). Bez pakowania. Do raportu polecam LaTeX'a, np. [Overleaf](https://overleaf.com) jest wygodny.
+z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`). Bez pakowania. Do raportu polecam LaTeX'a, np. [Overleaf](https://overleaf.com) jest wygodny. Raport przekraczający 8 stron to obniżenie oceny o 1 pkt.
 
-Terminem oddania ćwiczenia `n` jest spotkanie numer `n+1`. Każdy tydzień spóźnienia kosztuje 20% maksymalnej liczby punktów za dane ćwiczenie.
+Terminem oddania ćwiczenia `n` jest spotkanie numer `n+1`. Każdy tydzień spóźnienia to obniżenie oceny o 1.5 pkt.
 
 <!-- 
 
