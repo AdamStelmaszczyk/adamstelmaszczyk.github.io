@@ -21,13 +21,13 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 -->
 Podstawowe zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
-Przed oddaniem na spotkaniu, pliki trzeba wysłać na:
+Przed oddaniem na spotkaniu, pliki trzeba wysłać dnia poprzedzającego na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
 z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`). Bez pakowania. Do raportu polecam LaTeX'a, np. [Overleaf](https://overleaf.com) jest wygodny. Raport przekraczający 8 stron to obniżenie oceny o 1 pkt.
 
-Terminem oddania ćwiczenia `n` jest spotkanie numer `n+1`. Każdy tydzień spóźnienia to obniżenie oceny o 1.5 pkt.
+Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. Każdy tydzień spóźnienia to obniżenie oceny o 1.5 pkt. Wysłanie tego samego dnia co oddanie już jest spóźnieniem, należy wysłać najpóźniej dzień przed oddaniem.
 
 <!-- 
 
