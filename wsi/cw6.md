@@ -8,7 +8,7 @@ hidden: true
 # Zadanie
 
 Zadanie polega na implementacji algorytmu Q-learning oraz zastosowaniu go do rozwiązania problemu [Cliff Walking](https://gymnasium.farama.org/environments/toy_text/cliff_walking/). 
-Środowisko to jest dostępne w pakiecie [gymnasium](https://pypi.org/project/gymnasium/): `gym.make('CliffWalking-v0')`.
+Środowisko to jest dostępne w pakiecie [gymnasium](https://pypi.org/project/gymnasium/): `gym.make('CliffWalking-v1')`.
 
 ## Kroki do wykonania
 
