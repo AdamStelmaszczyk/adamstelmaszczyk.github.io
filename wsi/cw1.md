@@ -10,22 +10,11 @@ hidden: true
 Zadanie polega na implementacji algorytmu genetycznego z mutacją, selekcją
 ruletkową, krzyżowaniem oraz sukcesją generacyjną.
 
-Zaimplementowany algorytm ma następnie posłużyć do optymalizacji klasycznego, symetrycznego [problemu komiwojażera](https://pl.wikipedia.org/wiki/Problem_komiwoja%C5%BCera).
+Zaimplementowany algorytm ma następnie posłużyć do optymalizacji symetrycznego [problemu komiwojażera](https://pl.wikipedia.org/wiki/Problem_komiwoja%C5%BCera).
 
 ## Dane
 
-| Miasto | Współrzędne |
-|--------|-------------|
-| A      | (0, 0)      |
-| B      | (1, 3)      |
-| C      | (2, 1)      |
-| D      | (4, 6)      |
-| E      | (5, 2)      |
-| F      | (6, 5)      |
-| G      | (8, 7)      |
-| H      | (9, 4)      |
-| I      | (10, 8)     |
-| J      | (12, 3)     |
+16 miast z Odysei: [`ulysaes16.tsp`](https://github.com/mastqe/tsplib/blob/master/ulysses16.tsp).
 
 ## Kroki do wykonania
 
