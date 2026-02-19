@@ -14,7 +14,7 @@ Zaimplementowany algorytm ma następnie posłużyć do optymalizacji symetryczne
 
 ## Dane
 
-16 miast z Odysei: [`ulysses16.tsp`](https://github.com/mastqe/tsplib/blob/master/ulysses16.tsp).
+29 miast z [Sahary Zachodniej](https://www.math.uwaterloo.ca/tsp/world/countries.html#WI):  https://www.math.uwaterloo.ca/tsp/world/wi29.tsp
 
 ## Kroki do wykonania
 
