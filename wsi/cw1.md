@@ -14,7 +14,7 @@ Zaimplementowany algorytm ma następnie posłużyć do optymalizacji symetryczne
 
 ## Dane
 
-29 miast z [Sahary Zachodniej](https://www.math.uwaterloo.ca/tsp/world/countries.html#WI):  https://www.math.uwaterloo.ca/tsp/world/wi29.tsp
+[29 miast](https://www.math.uwaterloo.ca/tsp/world/wi29.tsp) z [Sahary Zachodniej](https://www.math.uwaterloo.ca/tsp/world/countries.html#WI).
 
 ## Kroki do wykonania
 
