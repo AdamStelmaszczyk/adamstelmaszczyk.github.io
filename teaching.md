@@ -5,20 +5,20 @@ permalink: /teaching/
 ---
 
 ### WSI (Wprowadzenie do sztucznej inteligencji)
-<!--
+
 Harmonogram spotkań:
 
 Nr| Data  | Oddanie ćwiczenia | Punkty
 --|-------|-------|--------|
-1 | 10.10 |       |        |
-2 | 24.10 | [Algorytmy ewolucyjne i genetyczne](/teaching/wsi/cw1)  | 7
-3 | 07.11 | [Dwuosobowe gry deterministyczne](/teaching/wsi/cw2) | 7
-4 | 28.11 | [Regresja i klasyfikacja](/teaching/wsi/cw3) | 7
-5 | 12.12 | [Przeszukiwanie przestrzeni](/teaching/wsi/cw4) | 7
-6 | 16.01 | [Sztuczne sieci neuronowe (realizowane w parach)](/teaching/wsi/cw5) | 8
-7 | 23.01 | [Uczenie ze wzmocnieniem](/teaching/wsi/cw6) | 7
-8 | 30.01 | [Modele bayesowskie](/teaching/wsi/cw7) | 7
--->
+1 | 02.03 |       |        |
+2 | 16.03 | Przeszukiwanie przestrzeni | 7
+3 | 30.03 | Dwuosobowe gry deterministyczne | 7
+4 | 20.04 | Regresja i klasyfikacja | 7
+5 | 04.05 | Algorytmy ewolucyjne | 7
+6 | 25.05 | Sztuczne sieci neuronowe (realizowane w parach) | 8
+7 | 08.06 | Uczenie ze wzmocnieniem | 7
+8 | 15.06 | Modele bayesowskie | 7
+
 Podstawowe zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
 Dzień przed oddaniem na spotkaniu, pliki trzeba wysłać na:
