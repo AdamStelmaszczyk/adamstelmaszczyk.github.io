@@ -63,3 +63,7 @@ def visualize_fun(obj_fun: callable, trajectory: np.ndarray):
     plt.legend()
     plt.show()
 ```
+
+## Nieobowiązkowo
+
+Zaimplementuj inme metody gradientowe, np. SGD, Adam i porównaj wyniki do tych uzyskanych gradientem prostym.
