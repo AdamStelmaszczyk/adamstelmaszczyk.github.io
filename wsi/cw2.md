@@ -3,6 +3,7 @@ layout: page
 title: Dwuosobowe gry deterministyczne
 permalink: /teaching/wsi/cw2
 hidden: true
+published: false
 ---
 
 # Zadanie
