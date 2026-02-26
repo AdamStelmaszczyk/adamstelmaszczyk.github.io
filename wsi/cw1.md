@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Przeszukiwanie przestrzeni
-permalink: /teaching/wsi/cw4
+permalink: /teaching/wsi/cw1
 hidden: true
 ---
 
