@@ -30,8 +30,6 @@ Zadanie realizowane jest w parach, dobieracie się Państwo sami. Każda osoba z
 - Użyj funkcji aktywacji sigmoidalnej w warstwie ukrytej i metody gradientowej do znajdowania wag sieci.
 - Zadbaj o odpowiedni dobór współczynnika uczenia oraz liczby iteracji uczenia.
 
+## Nieobowiązkowo
 
-
-
-
-
+Zmodyfikuj implementację tak, aby uzyskać jak najmniejszy błąd aproksymacji.
