@@ -3,6 +3,7 @@ layout: page
 title: Przeszukiwanie przestrzeni
 permalink: /teaching/wsi/cw1
 hidden: true
+published: false
 ---
 
 # Zadanie
