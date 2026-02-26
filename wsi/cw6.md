@@ -18,3 +18,7 @@ Zadanie polega na implementacji algorytmu Q-learning oraz zastosowaniu go do roz
 ## Uwagi
 
 Implementacja algorytmu powinna być uniwersalna, tzn. możliwa do wykorzystania dla różnych środowisk o dyskretnej przestrzeni stanów i akcji.
+
+## Nieobowiązkowo
+
+Porównaj do uczenia się w środowisku ze śliskim klifem: `gym.make("CliffWalking-v1", is_slippery=True)`.
