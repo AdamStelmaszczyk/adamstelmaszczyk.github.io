@@ -3,6 +3,7 @@ layout: page
 title: Regresja i klasyfikacja
 permalink: /teaching/wsi/cw3
 hidden: true
+published: false
 ---
 
 # Zadanie
