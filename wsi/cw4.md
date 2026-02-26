@@ -27,5 +27,8 @@ Zaimplementowany algorytm ma następnie posłużyć do optymalizacji symetryczne
 ## Uwagi
 
 - Ze względu na losowy charakter algorytmu, konieczne jest porównanie uzyskiwanych rezultatów jego działania dla wielu uruchomień i uśrednienie wyników.  
-- Funkcję przystosowania możemy zdefiniować jako odwrotność łącznej długości trasy dla danej permutacji miast odwiedzanych przez komiwojażera.  
-- Interesującym, choć **nieobowiązkowym** dodatkiem jest zastosowanie do kodowania osobników kodu Graya. Szczegóły omówione są w podrozdziale 4.2 książki Pawła Wawrzyńskiego "Podstawy sztucznej inteligencji" (dostępna np. w bibliotece PW online).
+- Funkcję przystosowania możemy zdefiniować jako odwrotność łącznej długości trasy dla danej permutacji miast odwiedzanych przez komiwojażera.
+
+## Nieobowiązkowo 
+
+Zastosowanie do kodowania osobników kodu Graya. Szczegóły omówione są w podrozdziale 4.2 książki Pawła Wawrzyńskiego "Podstawy sztucznej inteligencji" (dostępna np. w bibliotece PW online).
