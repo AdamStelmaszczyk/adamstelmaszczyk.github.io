@@ -3,6 +3,7 @@ layout: page
 title: Algorytmy ewolucyjne i genetyczne
 permalink: /teaching/wsi/cw4
 hidden: true
+published: false
 ---
 
 # Zadanie
