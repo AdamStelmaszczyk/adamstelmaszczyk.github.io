@@ -11,7 +11,7 @@ Harmonogram spotkań:
 Nr| Data  | Oddanie ćwiczenia | Punkty
 --|-------|-------|--------|
 1 | 02.03 |       |        |
-2 | 16.03 | Przeszukiwanie przestrzeni | 7
+2 | 16.03 | [Przeszukiwanie przestrzeni](/teaching/wsi/cw1) | 7
 3 | 30.03 | Dwuosobowe gry deterministyczne | 7
 4 | 20.04 | Regresja i klasyfikacja | 7
 5 | 04.05 | Algorytmy ewolucyjne | 7
