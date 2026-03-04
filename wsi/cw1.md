@@ -8,7 +8,7 @@ published: true
 
 # Zadanie
 
-Zadanie polega na implementacji algorytmu gradientu prostego oraz zbadaniu jego zachowania dla różnych wartości wymienionych niżej hiperparametrów. 
+Zadanie polega na implementacji algorytmu gradientu prostego (ang. gradient descent, GD) oraz zbadaniu jego zachowania dla różnych wartości wymienionych niżej hiperparametrów.
 Metodę należy zastosować dla następujących funkcji:
 
 - f(x) = x_1^2 + x_2^2
