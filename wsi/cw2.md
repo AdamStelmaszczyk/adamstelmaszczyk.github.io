@@ -30,4 +30,4 @@ Poniższe kroki proszę wykonać dla dwóch rozmiarów planszy: 3x3 oraz 4x4.
 
 ## Nieobowiązkowo
 
-Użyj Negamax zamiast MMinimax.
+Użyj Negamax zamiast Minimax.
