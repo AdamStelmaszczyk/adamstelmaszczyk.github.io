@@ -51,7 +51,7 @@ def visualize_fun(obj_fun: callable, trajectory: np.ndarray):
     plt.colorbar(label='Objective function value')
     plt.xlabel('x1')
     plt.ylabel('x2')
-    plt.title('Gradient decent trajectory')
+    plt.title('Gradient descent trajectory')
 
     min_x, min_y = trajectory[-1]
     plt.scatter(min_x, min_y, color='yellow',
