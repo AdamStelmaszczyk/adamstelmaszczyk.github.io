@@ -19,3 +19,7 @@ Zadanie polega na implementacji drzewa decyzyjnego tworzonego algorytmem ID3 z o
 
 - Należy pamiętać o podziale danych na zbiór treningowy, walidacyjny i testowy.  
 - Zaimplementowana metoda powinna być uniwersalna - nie należy "zaszywać" na sztywno w kodzie np. nazwy pliku ze zbiorem danych czy wartości atrybutów.
+
+## Nieobowiązkowo
+
+Porównaj swój klasyfikator z `DecisionTreeClassifier` z biblioteki `scikit-learn`.
