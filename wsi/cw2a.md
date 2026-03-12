@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Algorytmy ewolucyjne i genetyczne
-permalink: /teaching/wsi/cw4
+permalink: /teaching/wsi/cw2a
 hidden: true
 published: false
 ---
