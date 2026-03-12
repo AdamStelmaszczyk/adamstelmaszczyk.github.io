@@ -12,9 +12,9 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 --|-------|-------|--------|
 1 | 02.03 |       |        |
 2 | 16.03 | [Przeszukiwanie przestrzeni](/teaching/wsi/cw1) | 7
-3 | 30.03 | Dwuosobowe gry deterministyczne | 7
-4 | 20.04 | Regresja i klasyfikacja | 7
-5 | 04.05 | Algorytmy ewolucyjne | 7
+3 | 30.03 | Algorytmy ewolucyjne | 7
+4 | 20.04 | Dwuosobowe gry deterministyczne | 7
+5 | 04.05 | Regresja i klasyfikacja | 7
 6 | 25.05 | Sztuczne sieci neuronowe (realizowane w parach) | 8
 7 | 08.06 | Uczenie ze wzmocnieniem | 7
 8 | 15.06 | Modele bayesowskie | 7
