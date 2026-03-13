@@ -33,14 +33,14 @@ Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. Każ
 
 Harmonogram spotkań:
 
-Nr| Data  | Temat |
+Nr| Data  | Oddanie ćwiczenia |
 --|-------|-------|
-1 | 16.03 | Ćwiczenie wstępne i rozdanie zadania 1 "Sortowanie" |
-2 | 30.03 | Oddanie zadania 1 "Sortowanie" i rozdanie zadania 2 "Kopce" |
-3 | 20.04 | Oddanie zadania 2 "Kopce" i rozdanie zadania 3 "Drzewa" |
-4 | 04.05 | Oddanie zadania 3 "Drzewa" i rozdanie zadania 4 "Grafy" |
-5 | 25.05 | Oddanie zadania 4 "Grafy" i rozdanie zadania 5 "Turing" |
-6 | 08.06 | Oddanie zadania 5 "Turing" |
+1 | 16.03 | Ćwiczenie wstępne |
+2 | 30.03 | Sortowanie |
+3 | 20.04 | Kopce |
+4 | 04.05 | Drzewa |
+5 | 25.05 | Grafy |
+6 | 08.06 | Turing |
 
 <!--
 Zasady i zadania 1-4 są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html). 
