@@ -29,22 +29,20 @@ z "WSI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 7). Prosz�
 
 Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. Każdy tydzień spóźnienia to obniżenie oceny o 1.5 pkt. Wysłanie tego samego dnia co oddanie już jest spóźnieniem, należy wysłać najpóźniej dzień przed oddaniem.
 
-<!-- 
-
 ### AISDI (Algorytmy i struktury danych)
 
 Harmonogram:
 
 Nr| Data  | Temat |
 --|-------|-------|
-1 | 10.03 | Ćwiczenie wstępne i rozdanie zadania 1 "Sortowanie" |
-2 | 24.03 | Oddanie zadania 1 "Sortowanie" i rozdanie zadania 2 "Kopce" |
-3 | 07.04 | Oddanie zadania 2 "Kopce" i rozdanie zadania 3 "Drzewa" |
-4 | 28.04 | Oddanie zadania 3 "Drzewa" i rozdanie zadania 4 "Grafy" |
-5 | 12.05 | Oddanie zadania 4 "Grafy" i rozdanie zadania 5 "Turing" |
-6 | 02.06 | Oddanie zadania 5 "Turing" |
-7 | 09.06 | Termin zapasowy |
+1 | 16.03 | Ćwiczenie wstępne i rozdanie zadania 1 "Sortowanie" |
+2 | 30.03 | Oddanie zadania 1 "Sortowanie" i rozdanie zadania 2 "Kopce" |
+3 | 20.04 | Oddanie zadania 2 "Kopce" i rozdanie zadania 3 "Drzewa" |
+4 | 04.05 | Oddanie zadania 3 "Drzewa" i rozdanie zadania 4 "Grafy" |
+5 | 25.05 | Oddanie zadania 4 "Grafy" i rozdanie zadania 5 "Turing" |
+6 | 08.06 | Oddanie zadania 5 "Turing" |
 
+<!--
 Zasady i zadania 1-4 są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html). 
 
 Zadanie 5 jest [tutaj](/teaching/turing).
