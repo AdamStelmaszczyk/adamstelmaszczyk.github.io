@@ -31,7 +31,7 @@ Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. Każ
 
 ### AISDI (Algorytmy i struktury danych)
 
-Harmonogram:
+Harmonogram spotkań:
 
 Nr| Data  | Temat |
 --|-------|-------|
