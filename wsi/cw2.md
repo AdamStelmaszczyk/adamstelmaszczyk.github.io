@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Algorytmy ewolucyjne i genetyczne
+title: Algorytmy ewolucyjne
 permalink: /teaching/wsi/cw2
 hidden: true
 published: true
