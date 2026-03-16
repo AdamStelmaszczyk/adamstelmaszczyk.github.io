@@ -35,7 +35,7 @@ Harmonogram spotkań:
 
 Nr| Data  | Oddanie ćwiczenia |
 --|-------|-------|
-1 | 16.03 | (ćwiczenie wstępne) |
+1 | 16.03 | |
 2 | 30.03 | Sortowanie |
 3 | 20.04 | Kopce |
 4 | 04.05 | Drzewa |
