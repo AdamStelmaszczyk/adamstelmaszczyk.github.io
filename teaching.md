@@ -42,7 +42,7 @@ Nr| Data  | Oddanie ćwiczenia |
 5 | 25.05 | Grafy |
 6 | 08.06 | Turing |
 
-Zasady i zadania są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
+Zasady i zadania są [tu](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
 
 Dzień przed oddaniem na spotkaniu, pliki trzeba wysłać na:
 
