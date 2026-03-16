@@ -42,11 +42,15 @@ Nr| Data  | Oddanie ćwiczenia |
 5 | 25.05 | Grafy |
 6 | 08.06 | Turing |
 
+Dzień przed oddaniem na spotkaniu, pliki trzeba wysłać na:
+
+adam.stelmaszczyk (at) pw.edu.pl
+
 <!--
 Zasady i zadania 1-4 są [tutaj](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html). 
 
 Zadanie 5 jest [tutaj](/teaching/turing).
-
-Obydwie osoby z pary powinny być obecne przy oddawaniu, każdy dostaje osobną ocenę. W przypadku nieobecności, nieobecna osoba może oddać później, z uwzględnieniem -20% maksymalnej oceny za każdy tydzień spoźnienia dla tej osoby. 
-
 -->
+
+Obydwie osoby z pary powinny być obecne przy oddawaniu, każdy dostaje osobną ocenę. Każdy powinien rozumieć całość rozwiązania. 
+W przypadku nieobecności, nieobecna osoba może oddać później, z uwzględnieniem -1 pkt za każdy tydzień spoźnienia dla tej osoby. 
