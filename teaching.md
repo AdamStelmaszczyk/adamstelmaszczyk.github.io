@@ -48,6 +48,6 @@ Dzień przed oddaniem na spotkaniu, pliki trzeba wysłać na:
 
 adam.stelmaszczyk (at) pw.edu.pl
 
-z "AISDI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 5). Proszę załączyć `raport.pdf` oraz `kod.txt` (poczta czasem blokuje `.py`). Bez pakowania. Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. 
+z "AISDI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 5). Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. 
 
 Obydwie osoby z pary powinny być obecne przy oddawaniu, każdy dostaje osobną ocenę. Każdy powinien rozumieć całość rozwiązania. W przypadku nieobecności, nieobecna osoba może oddać później, z uwzględnieniem -1 pkt za każdy tydzień spoźnienia.
