@@ -32,7 +32,7 @@ Jako dane do sortowania wykorzystaj plik `pan-tadeusz.txt`, zawierający słowa 
 * zmierz czas sortowania list zawierających *n* pierwszych słów wczytanych z pliku (np. *n* = 1000, 2000, ..., 10000),
 * wygeneruj wykres zależności czasu sortowania od długości listy.
 
-Zwróć uwagę by mierzyć wyłącznie czas sortowania, pomijając wczytywanie danych lub wyświetlanie wyników. Informację o funkcjach i bibliotekach, które możesz wykorzystać do pomiaru czasu i generowania wykresów znajdziesz we [`wskazówkach`](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI/AISDI_Tips.html).
+Zwróć uwagę by mierzyć wyłącznie czas sortowania, pomijając wczytywanie danych lub wyświetlanie wyników. Informację o funkcjach i bibliotekach, które możesz wykorzystać do pomiaru czasu i generowania wykresów znajdziesz we [wskazówkach](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI/AISDI_Tips.html).
 
 ### Wyniki
 
