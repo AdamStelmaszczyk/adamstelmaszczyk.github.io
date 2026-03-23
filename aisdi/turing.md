@@ -7,7 +7,7 @@ hidden: true
 
 ## Algorytmy i struktury danych
 
-### Maszyna Turinga
+### Problem
 
 Funkcję przejścia dla maszyny Turinga można zapisać w postaci tekstu złożonego z wierszy o postaci:
 
