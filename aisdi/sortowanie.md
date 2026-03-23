@@ -26,7 +26,7 @@ Funkcje nie powinny modyfikować przekazanej listy.
 
 ### Porównanie algorytmów sortowania
 
-Jako dane do sortowania wykorzystaj plik [`pan-tadeusz.txt`](/teaching/aisdi/pan-tadeusz.txt), zawierający słowa oddzielone białymi znakami. Przez *słowo* rozumiemy tu dowolny ciąg niebiałych znaków. Dla każdej z funkcji sortujących:
+Jako dane do sortowania wykorzystaj plik [`pan-tadeusz.txt`](/aisdi/pan-tadeusz.txt), zawierający słowa oddzielone białymi znakami. Przez *słowo* rozumiemy tu dowolny ciąg niebiałych znaków. Dla każdej z funkcji sortujących:
 
 * sprawdź czy funkcja poprawnie sortuje,
 * zmierz czas sortowania list zawierających *n* pierwszych słów wczytanych z pliku (np. *n* = 1000, 2000, ..., 10000),
