@@ -21,11 +21,9 @@ J111J
 
 Przyjmijmy teraz, że po polach można się przemieszczać w kierunkach prawo-lewo i góra-dół (lecz nie na skos). Niech cyfry oznaczają koszt wejścia na dane pole, za wyjątkiem sytuacji, gdy wchodzimy na nie z pola z literą J. Koszt wejścia na pole z literą J (od ang. _joker_, żartowniś), a także koszt opuszczenia pola z literą J, wynoszą 0. Zadanie polega na napisaniu programu, który:
 
-1. wczyta planszę z pliku (nazwa pliku przekazana jako argument wywołania programu);
-
-2. korzystając z algorytmu Dijkstry, znajdzie dowolną z najmniej kosztownych tras przejścia pomiędzy pierwszą (licząc od początku pliku) literą X a drugą;
-
-3. ukryje pola planszy, które nie leżą na znalezionej trasie oraz poda całkowity koszt znalezionej trasy.
+1. wczyta planszę z pliku (nazwa pliku przekazana jako argument wywołania programu)
+2. korzystając z algorytmu Dijkstry, znajdzie dowolną z najmniej kosztownych tras przejścia pomiędzy pierwszą (licząc od początku pliku) literą X a drugą
+3. ukryje pola planszy, które nie leżą na znalezionej trasie oraz poda całkowity koszt znalezionej trasy
 
 Przykładowo, zakładając, że plik `graf1.txt` zawiera pokazaną wcześniej planszę, wynikiem działania programu może być:
 
@@ -46,8 +44,6 @@ Można założyć poprawność wejściowego pliku.
 
 Rezultatem powinny być:
 
-* kod źródłowy programu;
-
-* 3 pliki tekstowe z przykładowymi planszami (innymi niż plansza z treści zadania) o różnych wymiarach;
-
-* 3 zrzuty ekranu z wynikami działania programu dla przykładowych plansz.
+* kod źródłowy programu
+* 3 pliki tekstowe z przykładowymi planszami (innymi niż plansza z treści zadania) o różnych wymiarach
+* 3 zrzuty ekranu z wynikami działania programu dla przykładowych plansz
