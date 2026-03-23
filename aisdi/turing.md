@@ -15,14 +15,10 @@ Funkcję przejścia dla maszyny Turinga można zapisać w postaci tekstu złożo
 
 gdzie:
 
-* `current_state` jest identyfikatorem (ciąg liter) aktualnego stanu maszyny;
-
-* `current_symbol` jest symbolem odczytywanym przez głowicę maszyny (może to być dowolna litera, cyfra, albo znak `_` traktowany jako symbol pusty maszyny);
-
-* `new_symbol` jest symbolem zapisywanym przez głowicę maszyny (jak wyżej);
-
-* `direction` jest literą `L`,`R` lub znakiem `*`, co oznacza odpowiednio przesunięcie głowicy w lewo, w prawo lub brak przesunięcia;
-
+* `current_state` jest identyfikatorem (ciąg liter) aktualnego stanu maszyny
+* `current_symbol` jest symbolem odczytywanym przez głowicę maszyny (może to być dowolna litera, cyfra, albo znak `_` traktowany jako symbol pusty maszyny)
+* `new_symbol` jest symbolem zapisywanym przez głowicę maszyny (jak wyżej)
+* `direction` jest literą `L`,`R` lub znakiem `*`, co oznacza odpowiednio przesunięcie głowicy w lewo, w prawo lub brak przesunięcia
 * `new_state` jest identyfikatorem kolejnego stanu maszyny.
 
 Początkowo maszyna jest w stanie `init`, a stanem końcowym maszyny jest dowolny stan, którego identyfikator zaczyna się od `halt` (np. `halt`, `haltOK`). Wielkość liter w identyfikatorach stanów oraz odczytywanych i zapisywanych przez głowicę ma znaczenie.
@@ -120,6 +116,5 @@ oraz:
 
 Rezultatem powinny być:
 
-* kod źródłowy programu;
-
-* 3 pliki tekstowe z przykładowymi funkcjami przejścia dla maszyny Turinga (innymi niż z treści zadania).
+* kod źródłowy programu
+* 3 pliki tekstowe z przykładowymi funkcjami przejścia dla maszyny Turinga (innymi niż z treści zadania)
