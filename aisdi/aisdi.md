@@ -16,6 +16,7 @@ Napisz pięć funkcji sortujących, które implementują następujące algorytmy
 * sortowanie przez wstawianie (ang. *insertion sort*),
 * sortowanie przez scalanie (ang. *merge sort*),
 * sortowanie szybkie (ang. *quick sort*).
+
 Każda z funkcji powinna przyjmować jako argument listę i zwracać listę posortowaną, np.:
 
     >>> bubble_sort([3,5,1])
