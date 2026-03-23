@@ -33,14 +33,14 @@ Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. Każ
 
 Harmonogram spotkań:
 
-Nr| Data  | Oddanie ćwiczenia |
---|-------|-------|
-1 | 16.03 | |
-2 | 30.03 | Sortowanie |
-3 | 20.04 | Kopce |
-4 | 04.05 | Drzewa |
-5 | 25.05 | Grafy |
-6 | 08.06 | Turing |
+Nr| Data  | Oddanie ćwiczenia | Punkty
+--|-------|-------|-------|
+1 | 16.03 |       |
+2 | 30.03 | [Sortowanie](/teaching/aisdi/sortowanie) | 6
+3 | 20.04 | Kopce | 6
+4 | 04.05 | Drzewa | 6
+5 | 25.05 | Grafy | 6
+6 | 08.06 | Turing | 6
 
 Zasady i zadania są [tu](https://staff.elka.pw.edu.pl/~djagodzi/didactic/AISDI25L.html).
 
