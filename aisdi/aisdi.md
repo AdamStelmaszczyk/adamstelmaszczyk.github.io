@@ -7,7 +7,7 @@ hidden: true
 
 ## Algorytmy i struktury danych
 
-### Implementacja algorytmów sortowania
+### Problem
 
 Napisz pięć funkcji sortujących, które implementują następujące algorytmy:
 
