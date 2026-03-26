@@ -18,7 +18,7 @@ Poniższe kroki proszę wykonać dla dwóch rozmiarów planszy: 3x3 oraz 4x4.
 
 1.  Uruchomienie gry dla gracza losowego i ludzkiego (dla zapoznania
     się).
-2.  Test-driven development (TDD). Najpierw napisanie testów, które optymalnie grający Minimax (na planszy 3x3) powinien przechodzić. [Przykład testów](https://github.com/AdamStelmaszczyk/gtsa/blob/master/cpp/tests/test_tic_tac_toe.cpp).
+2.  Test-driven development (TDD). Najpierw napisanie testów, które optymalnie grający Minimax powinien przechodzić. [Przykład testów](https://github.com/AdamStelmaszczyk/gtsa/blob/master/cpp/tests/test_tic_tac_toe.cpp).
 4.  Implementacja algorytmu Minimax. Przejście wszystkich testów. Dodanie przycinania alfa-beta, upewnienie się, że czas przeszukiwania się skrócił. Ponowne zaliczenie wszystkich testów automatycznych.
 5.  Ocena gracza Minimax (porównanie jego zachowania w stosunku do gracza ludzkiego oraz losowego).
 6.  Rozszerzenie gry o możliwość konfiguracji różnych poziomów
