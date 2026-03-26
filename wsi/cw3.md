@@ -25,8 +25,7 @@ Poniższe kroki proszę wykonać dla dwóch rozmiarów planszy: 3x3 oraz 4x4.
     głębokości drzewa przeszukiwań dla dwóch graczy Minimax.
 7.  Uruchomienie gry dla dwóch graczy Minimax o różnej głębokości drzewa
     przeszukiwań (dla kilku wartości tego parametru) i skomentowanie
-    wpływu głębokości przeszukiwania drzewa gry na jakość wyników
-    uzyskiwanych przez graczy.
+    wpływu głębokości na jakość gry.
 
 ## Nieobowiązkowo
 
