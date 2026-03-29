@@ -1,4 +1,11 @@
-## Algorytmy i struktury danych – zadanie z kopców
+---
+layout: page
+title: Kopce
+permalink: /teaching/aisdi/kopce
+hidden: true
+---
+
+## Algorytmy i struktury danych
 
 ### Implementacja kopców
 
