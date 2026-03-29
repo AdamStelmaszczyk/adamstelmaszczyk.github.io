@@ -7,7 +7,7 @@ hidden: true
 
 ## Algorytmy i struktury danych
 
-### Implementacja kopców
+### Problem
 
 Zaimplementuj trzy kopce zupełne: 2-arny, 5-arny i 7-arny. Każdy z kopców zaimplementuj w tablicy (liście w Pythonie). Wymagane operacje:
 
