@@ -1,6 +1,13 @@
-## Algorytmy i struktury danych – zadanie z drzew
+---
+layout: page
+title: Drzewa
+permalink: /teaching/aisdi/drzewa
+hidden: true
+---
 
-### Implementacja drzew
+## Algorytmy i struktury danych
+
+### Problem
 
 Przygotuj implementacje następujących drzew:
 
