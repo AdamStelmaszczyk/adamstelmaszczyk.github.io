@@ -38,7 +38,7 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 1 | 16.03 |       |
 2 | 30.03 | [Sortowanie](/teaching/aisdi/sortowanie) | 6
 3 | 20.04 | [Kopce](/teaching/aisdi/kopce) | 6
-4 | 04.05 | Drzewa | 6
+4 | 04.05 | [Drzewa](/teaching/aisdi/drzewa) | 6
 5 | 25.05 | Grafy | 6
 6 | 08.06 | Turing | 6
 
