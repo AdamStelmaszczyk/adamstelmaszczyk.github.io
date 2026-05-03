@@ -15,7 +15,7 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 3 | 30.03 | [Algorytmy ewolucyjne](/teaching/wsi/cw2) | 7
 4 | 20.04 | [Dwuosobowe gry deterministyczne](/teaching/wsi/cw3) | 7
 5 | 04.05 | [Regresja i klasyfikacja](/teaching/wsi/cw4) | 7
-6 | 25.05 | Sztuczne sieci neuronowe (realizowane w parach) | 8
+6 | 25.05 | [Sztuczne sieci neuronowe (realizowane w parach)](/teaching/wsi/cw5) | 8
 7 | 08.06 | Uczenie ze wzmocnieniem | 7
 8 | 15.06 | Modele bayesowskie | 7
 
