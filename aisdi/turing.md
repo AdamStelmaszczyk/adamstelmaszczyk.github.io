@@ -2,7 +2,7 @@
 layout: page
 title: Maszyna Turinga
 permalink: /teaching/aisdi/turing
-hidden: false
+hidden: true
 ---
 
 ## Algorytmy i struktury danych
