@@ -8,7 +8,7 @@ published: true
 
 # Zadanie
 
-Zadanie polega na skonstruowaniu sieci bayesowskiej oraz zbadaniu wpływu informacji o statusie w komunikatorze na prawdopodobieństwo świecenia się światła w pokoju pracownika.
+Zadanie polega na skonstruowaniu sieci bayesowskiej oraz zbadaniu wpływu informacji o statusie w komunikatorze na prawdopodobieństwo świecenia się światła w pokoju pracownika. Można użyć np. biblioteki [pgmpy](https://pgmpy.org).
 
 ## Scenariusz
 
@@ -20,10 +20,6 @@ Gdy nie ma go w pokoju, zostawia włączone światło tylko w 5% przypadków.
 
 1. Skonstruuj sieć bayesowską, aby przedstawić opisany scenariusz.
 2. Załóżmy, że sprawdzamy status pracownika na komunikatorze i widzimy, że jest zalogowany. Jaki wpływ ma to na nasze przekonanie, że światło w pokoju pracownika jest włączone?
-
-## Uwagi
-
-- Do implementacji można użyć np. biblioteki [pgmpy](https://pgmpy.org/).
 
 ## Nieobowiązkowo
 
