@@ -27,7 +27,7 @@ Gdy nie ma go w pokoju, zostawia włączone światło tylko w 5% przypadków.
 
 ## Nieobowiązkowo
 
-Dysponujemy stroną „Z kim można porozmawiać”, która wyświetla zieloną kropkę przy pracowniku, jeśli wykryje włączone światło w pokoju lub aktywność na komunikatorze. Oblicz prawdopodobieństwo włączonego światła u pracownika, o którym wiesz tylko tyle, że ma zieloną kropkę na stronie, a następnie porównaj je z sytuacją, gdy dodatkowo widzisz go jako zalogowanego na komunikatorze. Dlaczego informacja o komunikatorze obniża szansę na to, że światło w pokoju się świeci? Jak nazywa się ten paradoks?
+Strona „Z kim można porozmawiać” wyświetla zieloną kropkę przy pracowniku, jeśli wykryje włączone światło w pokoju lub aktywność na komunikatorze. Oblicz prawdopodobieństwo włączonego światła u pracownika, o którym wiesz tylko tyle, że ma zieloną kropkę na stronie, a następnie porównaj je z sytuacją, gdy dodatkowo widzisz go jako zalogowanego na komunikatorze. Dlaczego informacja o komunikatorze tym razem obniża szansę na to, że światło w pokoju się świeci? Jak nazywa się ten paradoks?
 
 ## Źródło
 
