@@ -3,7 +3,7 @@ layout: page
 title: Modele bayesowskie
 permalink: /teaching/wsi/cw7
 hidden: true
-published: false
+published: true
 ---
 
 # Zadanie
