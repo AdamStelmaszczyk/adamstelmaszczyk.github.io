@@ -17,7 +17,7 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 5 | 04.05 | [Regresja i klasyfikacja](/teaching/wsi/cw4) | 7
 6 | 25.05 | [Sztuczne sieci neuronowe (realizowane w parach)](/teaching/wsi/cw5) | 8
 7 | 08.06 | [Uczenie ze wzmocnieniem](/teaching/wsi/cw6) | 7
-8 | 15.06 | Modele bayesowskie | 7
+8 | 15.06 | [Modele bayesowskie](/teaching/wsi/cw7) | 7
 
 Podstawowe zasady są [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI) oraz [tu](https://staff.elka.pw.edu.pl/~rbiedrzy/WSI_CW).
 
