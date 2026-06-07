@@ -25,6 +25,10 @@ Gdy nie ma go w pokoju, zostawia włączone światło tylko w 5% przypadków.
 
 - Do implementacji można użyć np. biblioteki [pgmpy](https://pgmpy.org/).
 
+## Nieobowiązkowo
+
+Dysponujemy stroną „Z kim można porozmawiać”, która wyświetla zieloną kropkę przy pracowniku, jeśli wykryje włączone światło w pokoju lub aktywność na komunikatorze. Oblicz prawdopodobieństwo włączonego światła u pracownika, o którym wiesz tylko tyle, że ma zieloną kropkę na stronie, a następnie porównaj je z sytuacją, gdy dodatkowo widzisz go jako zalogowanego na komunikatorze. Dlaczego informacja o komunikatorze obniża szansę na to, że światło w pokoju się świeci? Jak nazywa się ten paradoks?
+
 ## Źródło
 
 Powyższe zadanie jest parafrazą problemu nr 3, rozdz. 2 z książki *Bayesian Artificial Intelligence* autorstwa Kevina B. Korba i Ann E. Nicholson, CRC Press, 2010.
