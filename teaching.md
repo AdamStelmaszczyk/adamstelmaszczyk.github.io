@@ -51,3 +51,5 @@ adam.stelmaszczyk (at) pw.edu.pl
 z "AISDI_CW_`n`" w tytule maila, gdzie `n` to numer ćwiczenia (od 1 do 5). Terminem wysłania ćwiczenia `n` jest dzień przed spotkaniem numer `n+1`. 
 
 Ćwiczenia wykonywane są w parach. Obydwie osoby z pary powinny być obecne przy oddawaniu, każdy dostaje osobną ocenę. Każdy powinien rozumieć całość rozwiązania. Braki w rozumieniu skutkują obniżeniem oceny. W przypadku nieobecności, nieobecna osoba może oddać później, z uwzględnieniem -1 pkt za każdy tydzień spoźnienia.
+
+-->
