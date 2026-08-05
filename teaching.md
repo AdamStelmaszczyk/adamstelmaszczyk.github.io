@@ -4,6 +4,8 @@ title: Teaching
 permalink: /teaching/
 ---
 
+<!--
+
 ### WSI (Wprowadzenie do sztucznej inteligencji)
 
 Harmonogram spotkań:
