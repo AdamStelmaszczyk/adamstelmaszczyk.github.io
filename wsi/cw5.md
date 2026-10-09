@@ -3,7 +3,7 @@ layout: page
 title: Sztuczne sieci neuronowe
 permalink: /teaching/wsi/cw5
 hidden: true
-published: true
+published: false
 ---
 
 # Zadanie

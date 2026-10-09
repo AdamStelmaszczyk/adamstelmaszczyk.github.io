@@ -3,7 +3,7 @@ layout: page
 title: Uczenie ze wzmocnieniem
 permalink: /teaching/wsi/cw6
 hidden: true
-published: true
+published: false
 ---
 
 # Zadanie
