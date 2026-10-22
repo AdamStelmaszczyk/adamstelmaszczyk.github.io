@@ -20,7 +20,7 @@ Zaimplementowany algorytm ma następnie posłużyć do optymalizacji symetryczne
 ## Kroki do wykonania
 
 1. Implementacja algorytmu genetycznego.  
-2. Zastosowanie algorytmu do rozwiązania problemu komiwojażera. Eksperymentalne dobranie zestawu parametrów, dla którego algorytm daje dobry wynik.  
+2. Zastosowanie algorytmu do rozwiązania problemu komiwojażera. Eksperymentalne dobranie zestawu parametrów, dla którego algorytm znajduje jak najlepsze rozwiązanie.
 3. Zbadanie, w jaki sposób następujące zmiany wpłyną na rezultaty osiągane przez algorytm:  
    a. Zwiększenie prawdopodobieństwa mutacji.  
    b. Zmiana sposobu selekcji na turniejową.  
