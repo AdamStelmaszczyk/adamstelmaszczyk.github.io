@@ -13,7 +13,7 @@ Nr| Data  | Oddanie ćwiczenia | Punkty
 1 | 15.10 | Wprowadzenie | 0
 2 | 22.10 | [Przeszukiwanie przestrzeni](/teaching/wsi/cw1) | 7
 3 | 12.11 | [Algorytmy ewolucyjne](/teaching/wsi/cw2) | 7
-4 | 26.11 | Dwuosobowe gry deterministyczne | 7
+4 | 26.11 | [Dwuosobowe gry deterministyczne](/teaching/wsi/cw3) | 7
 5 | 10.12 | Regresja i klasyfikacja | 7
 6 | 07.01 | Sztuczne sieci neuronowe (w parach) | 8
 7 | 21.01 | Uczenie ze wzmocnieniem | 7
